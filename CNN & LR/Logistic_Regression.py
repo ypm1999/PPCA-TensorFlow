@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import numpy as np
 import tensorflow.examples.tutorials.mnist.input_data as input_data
 
@@ -41,9 +42,9 @@ class LogisticRegression:
 
 
 def main():
-    mnist = input_data.read_data_sets("MINST_data/", one_hot=True)
+    mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
     model = LogisticRegression(28 * 28, 10, 0.01)
-    for i in range(200):
+    for i in range(1000):
         x_batch, y_batch = mnist.train.next_batch(50)
         if i % 100 == 0:
             tmp = np.equal(np.argmax(y_batch, axis=1), model.predication(x_batch))

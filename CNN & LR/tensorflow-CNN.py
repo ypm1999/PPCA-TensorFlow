@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import tensorflow as tf
 import tensorflow.examples.tutorials.mnist.input_data as data
 
@@ -27,7 +28,7 @@ def main():
     config.gpu_options.allow_growth = True
     #sess = tf.Session(config=config)
 
-    mnist = data.read_data_sets("MINST_data", one_hot=True)
+    mnist = data.read_data_sets("MNIST_data/", one_hot=True)
     sess = tf.InteractiveSession(config=config)
     x = tf.placeholder("float", shape=[None, 784])
     y_ = tf.placeholder("float", shape=[None, 10])
@@ -64,21 +65,17 @@ def main():
     sess.run(tf.initialize_all_variables())
 
     for i in range(100):
-        batch = mnist.train.next_batch(8)
-        print(type(batch))
-        print("\n")
-        print(batch[1][0])
-        break
+        batch = mnist.train.next_batch(50)
         if i % 100 == 0:
             train_accuracy = accuracy.eval(feed_dict = {x : batch[0], y_: batch[1], keep_prob: 1.0})
             print("step %d, training accuracy %g" % (i, train_accuracy))
         train_step.run(feed_dict={x: batch[0], y_: batch[1], keep_prob: 0.5})
-    batch = mnist.test.next_batch(5000)
+    batch = mnist.test.next_batch(800)
     print(sess.run(accuracy, feed_dict={x: mnist.test.images, y_: mnist.test.labels}))
 
 
 def main2():
-    mnist = data.read_data_sets("MINST_data", one_hot=True)
+    mnist = data.read_data_sets("MNIST_data/", one_hot=True)
     x = tf.placeholder(tf.float32, [None, 784])
     W = tf.Variable(tf.zeros([784, 10]))
     b = tf.Variable(tf.zeros([10]))
