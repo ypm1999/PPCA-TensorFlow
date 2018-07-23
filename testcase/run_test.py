@@ -1,7 +1,7 @@
 import os
 import sys
 
-python_cmd = "python"
+python_cmd = "python3"
 testcase_dir = "testcase"
 tests = [
     ["adder",       "1_adder.py"],

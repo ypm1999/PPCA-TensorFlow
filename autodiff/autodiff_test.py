@@ -1,6 +1,21 @@
 import autodiff as ad
 import numpy as np
+import sys
 
+
+def print_name(func):
+    def run(*argv):
+        print("Testing fundtion:\033[1;34m%20s\033[0m" % func.__name__, end = '')
+        if argv:
+            ret = func(*argv)
+        else:
+            ret = func()
+        print(" \033[1;32mPassed\033[0m!")
+        return ret
+    return run
+
+
+@print_name
 def test_identity():
     x2 = ad.Variable(name = "x2")
     y = x2
@@ -15,6 +30,8 @@ def test_identity():
     assert np.array_equal(y_val, x2_val)
     assert np.array_equal(grad_x2_val, np.ones_like(x2_val))
 
+
+@print_name
 def test_add_by_const():
     x2 = ad.Variable(name = "x2")
     y = 5 + x2
@@ -28,7 +45,10 @@ def test_add_by_const():
     assert isinstance(y, ad.Node)
     assert np.array_equal(y_val, x2_val + 5)
     assert np.array_equal(grad_x2_val, np.ones_like(x2_val))
+    
 
+
+@print_name
 def test_mul_by_const():
     x2 = ad.Variable(name = "x2")
     y = 5 * x2
@@ -43,6 +63,8 @@ def test_mul_by_const():
     assert np.array_equal(y_val, x2_val * 5)
     assert np.array_equal(grad_x2_val, np.ones_like(x2_val) * 5)
 
+
+@print_name
 def test_add_two_vars():
     x2 = ad.Variable(name = "x2")
     x3 = ad.Variable(name = "x3")
@@ -60,6 +82,8 @@ def test_add_two_vars():
     assert np.array_equal(grad_x2_val, np.ones_like(x2_val))
     assert np.array_equal(grad_x3_val, np.ones_like(x3_val))
 
+
+@print_name
 def test_mul_two_vars():
     x2 = ad.Variable(name = "x2")
     x3 = ad.Variable(name = "x3")
@@ -76,7 +100,10 @@ def test_mul_two_vars():
     assert np.array_equal(y_val, x2_val * x3_val)
     assert np.array_equal(grad_x2_val, x3_val)
     assert np.array_equal(grad_x3_val, x2_val)
+    
 
+
+@print_name
 def test_add_mul_mix_1():
     x1 = ad.Variable(name = "x1")
     x2 = ad.Variable(name = "x2")
@@ -96,7 +123,10 @@ def test_add_mul_mix_1():
     assert np.array_equal(grad_x1_val, np.ones_like(x1_val) + x2_val * x3_val)
     assert np.array_equal(grad_x2_val, x3_val * x1_val)
     assert np.array_equal(grad_x3_val, x2_val * x1_val)
+    
 
+
+@print_name
 def test_add_mul_mix_2():
     x1 = ad.Variable(name = "x1")
     x2 = ad.Variable(name = "x2")
@@ -119,7 +149,10 @@ def test_add_mul_mix_2():
     assert np.array_equal(grad_x2_val, x3_val * x4_val)
     assert np.array_equal(grad_x3_val, x2_val * x4_val)
     assert np.array_equal(grad_x4_val, x2_val * x3_val)
+    
 
+
+@print_name
 def test_add_mul_mix_3():
     x2 = ad.Variable(name = "x2")
     x3 = ad.Variable(name = "x3")
@@ -141,7 +174,10 @@ def test_add_mul_mix_3():
     assert np.array_equal(y_val, expected_yval)
     assert np.array_equal(grad_x2_val, expected_grad_x2_val)
     assert np.array_equal(grad_x3_val, expected_grad_x3_val)
+    
 
+
+@print_name
 def test_grad_of_grad():
     x2 = ad.Variable(name = "x2")
     x3 = ad.Variable(name = "x3")
@@ -167,7 +203,10 @@ def test_grad_of_grad():
     assert np.array_equal(grad_x3_val, expected_grad_x3_val)
     assert np.array_equal(grad_x2_x2_val, expected_grad_x2_x2_val)
     assert np.array_equal(grad_x2_x3_val, expected_grad_x2_x3_val)
+    
 
+
+@print_name
 def test_matmul_two_vars():
     x2 = ad.Variable(name = "x2")
     x3 = ad.Variable(name = "x3")
@@ -189,3 +228,15 @@ def test_matmul_two_vars():
     assert np.array_equal(y_val, expected_yval)
     assert np.array_equal(grad_x2_val, expected_grad_x2_val)
     assert np.array_equal(grad_x3_val, expected_grad_x3_val)
+
+
+test_identity()
+test_add_by_const()
+test_add_two_vars()
+test_mul_by_const()
+test_mul_two_vars()
+test_add_mul_mix_1()
+test_add_mul_mix_2()
+test_add_mul_mix_3()
+test_grad_of_grad()
+test_matmul_two_vars()

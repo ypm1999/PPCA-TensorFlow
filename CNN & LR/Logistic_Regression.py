@@ -7,8 +7,8 @@ class LogisticRegression:
         #n = 784, m = 10
         self.n = n
         self.m = m
-        self.w = np.zeros((n, m), dtype=np.float)
-        self.b = np.ones((1, m), dtype=np.float)
+        self.w = np.ones((n, m), dtype=np.float)
+        self.b = np.zeros((1, m), dtype=np.float)
         self.step = step_len
 
     def softmax(self, x):
@@ -30,7 +30,7 @@ class LogisticRegression:
         db = db * self.step
         self.w += dw
         self.b += db
-        self.step *= 0.999
+        #self.step *= 0.999
 
 
     def predication(self, data):
