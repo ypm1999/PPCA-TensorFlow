@@ -200,7 +200,20 @@ class MatMulOp(Op):
         Useful formula: if Y=AB, then dA=dY B^T, dB=A^T dY
         """
         #TODO: Your code here
-        return [matmul_op(output_grad, node.inputs[1], False, True), matmul_op(node.inputs[0], output_grad, True, False)]
+        if node.matmul_attr_trans_A:
+            if node.matmul_attr_trans_B:
+                return [matmul_op(output_grad, node.inputs[1], False, False),
+                        matmul_op(node.inputs[0], output_grad, False, False)]
+            else:
+                return [matmul_op(output_grad, node.inputs[1], False, True),
+                        matmul_op(node.inputs[0], output_grad, False, False)]
+        else:
+            if node.matmul_attr_trans_B:
+                return [matmul_op(output_grad, node.inputs[1], False, False),
+                        matmul_op(node.inputs[0], output_grad, True, False)]
+            else:
+                return [matmul_op(output_grad, node.inputs[1], False, True),
+                        matmul_op(node.inputs[0], output_grad, True, False)]
 
 class ExpOp(Op):
     def __call__(self, node_A):
@@ -355,10 +368,8 @@ def gradients(output_node, node_list):
     #TODO: Your code here
     for node in reverse_topo_order:
         #print(node)
-        grad_node = node_to_output_grads_list[node]
-        grad = grad_node[0]
-        for i in range(1, len(grad_node)):
-            grad = add_op(grad, grad_node[i])
+        grad = sum_node_list(node_to_output_grads_list[node])
+        print(grad.inputs)
         node_to_output_grad[node] = grad
         input_grads = node.op.gradient(node, grad)
         if input_grads == None:

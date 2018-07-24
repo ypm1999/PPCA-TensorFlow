@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="fe22548e-43ad-49d2-bbf1-afcc0d49c593" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN &amp; LR/Logistic_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN &amp; LR/Logistic_Regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyTensorFlow/Mytf.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyTensorFlow/Mytf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autodiff/autodiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodiff/autodiff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autodiff/autodiff_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodiff/autodiff_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/run_test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,29 +15,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$Mytf.coverage" NAME="Mytf Coverage Results" MODIFIED="1532264599298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTensorFlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$Mytf.coverage" NAME="Mytf Coverage Results" MODIFIED="1532396617772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTensorFlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$tensorflow_CNN.coverage" NAME="tensorflow-CNN Coverage Results" MODIFIED="1532337434354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$assign.coverage" NAME="assign Coverage Results" MODIFIED="1532398890854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$add_test.coverage" NAME="add_test Coverage Results" MODIFIED="1532355987113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Logistic_Regression.coverage" NAME="Logistic_Regression Coverage Results" MODIFIED="1532151022933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff_test.coverage" NAME="autodiff_test Coverage Results" MODIFIED="1532315963854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff_test.coverage" NAME="autodiff_test Coverage Results" MODIFIED="1532351406260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$session.coverage" NAME="session Coverage Results" MODIFIED="1532342725907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.5/dist-packages/tensorflow/python/client" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff.coverage" NAME="autodiff Coverage Results" MODIFIED="1532180604233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff.coverage" NAME="autodiff Coverage Results" MODIFIED="1532351397337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72893536">
+    <splitter split-orientation="horizontal" split-proportion="0.72718054">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Mytf.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+                <state relative-caret-position="453">
+                  <caret line="360" column="4" selection-start-line="360" selection-start-column="4" selection-end-line="360" selection-end-column="4" />
                   <folding>
-                    <element signature="e#10142#11398#0" />
-                    <element signature="e#11443#13343#0" />
-                    <element signature="e#13474#13607#0" />
-                    <element signature="e#13659#13815#0" />
-                    <element signature="e#13851#13942#0" />
+                    <element signature="e#430#2154#0" />
+                    <element signature="e#2182#2907#0" />
+                    <element signature="e#2932#3182#0" />
+                    <element signature="e#3215#3502#0" />
+                    <element signature="e#3831#4686#0" />
+                    <element signature="e#4465#5101#0" />
+                    <element signature="e#4983#5396#0" />
+                    <element signature="e#5433#5875#0" />
+                    <element signature="e#6332#7016#0" />
+                    <element signature="e#6790#7232#0" />
+                    <element signature="e#5900#6353#0" />
+                    <element signature="e#6390#6855#0" />
+                    <element signature="e#7319#7330#0" />
+                    <element signature="e#7015#7148#0" />
+                    <element signature="e#7200#7355#0" />
+                    <element signature="e#7391#7482#0" />
+                    <marker date="1532400125755" expanded="true" signature="9521:9528" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="assign.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/assign.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="322">
+                  <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -47,62 +68,8 @@
           <file leaf-file-name="autodiff.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="316" column="35" selection-start-line="316" selection-start-column="35" selection-end-line="316" selection-end-column="35" />
-                  <folding>
-                    <element signature="e#934#1009#0" />
-                    <element signature="e#1617#1682#0" />
-                    <element signature="e#1948#3070#0" />
-                    <element signature="e#2031#2253#0" />
-                    <element signature="e#2031#2176#1" />
-                    <element signature="e#2304#2605#0" />
-                    <element signature="e#2304#2571#1" />
-                    <element signature="e#2658#3070#0" />
-                    <element signature="e#2658#3036#1" />
-                    <element signature="e#3093#3722#0" />
-                    <element signature="e#3390#3549#0" />
-                    <element signature="e#3602#3722#0" />
-                    <element signature="e#3752#4409#0" />
-                    <element signature="e#3855#4048#0" />
-                    <element signature="e#4099#4255#0" />
-                    <element signature="e#4308#4409#0" />
-                    <element signature="e#4432#5173#0" />
-                    <element signature="e#4525#4683#0" />
-                    <element signature="e#4734#4930#0" />
-                    <element signature="e#4983#5173#0" />
-                    <element signature="e#5203#5961#0" />
-                    <element signature="e#5311#5504#0" />
-                    <element signature="e#5555#5748#0" />
-                    <element signature="e#5801#5961#0" />
-                    <element signature="e#6104#6513#1" />
-                    <element signature="e#6865#7423#0" />
-                    <element signature="e#7476#7792#0" />
-                    <element signature="e#7476#7640#1" />
-                    <element signature="e#7851#7987#0" />
-                    <element signature="e#8032#8168#0" />
-                    <element signature="e#8221#8293#0" />
-                    <element signature="e#8322#8933#0" />
-                    <element signature="e#8413#8641#0" />
-                    <element signature="e#8692#8843#0" />
-                    <element signature="e#8896#8933#0" />
-                    <element signature="e#8961#9567#0" />
-                    <element signature="e#9051#9277#0" />
-                    <element signature="e#9328#9477#0" />
-                    <element signature="e#9530#9567#0" />
-                    <element signature="e#9973#10143#0" />
-                    <element signature="e#9973#10098#1" />
-                    <element signature="e#10183#10468#1" />
-                    <element signature="e#11144#13070#0" />
-                    <element signature="e#11144#11483#1" />
-                    <element signature="e#11604#11687#0" />
-                    <element signature="e#12247#12925#0" />
-                    <element signature="e#12628#12925#0" />
-                    <element signature="e#13072#13102#0" />
-                    <element signature="e#13202#13694#0" />
-                    <element signature="e#13202#13556#1" />
-                    <element signature="e#13746#13927#0" />
-                    <element signature="e#13963#14155#0" />
-                  </folding>
+                <state relative-caret-position="-3588">
+                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -110,8 +77,8 @@
           <file leaf-file-name="autodiff_test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+                <state relative-caret-position="644">
+                  <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -123,8 +90,11 @@
           <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="5" selection-start-column="5" selection-end-column="5" />
+                <state relative-caret-position="92">
+                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+                  <folding>
+                    <element signature="e#0#38#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -140,7 +110,15 @@
       <find>&quot;&quot;&quot;TODO: Your code here1&quot;&quot;&quot;</find>
       <find>print(&quot;    \033[1;32mPassed\033[0m!&quot;)</find>
       <find>print</find>
+      <find>self</find>
+      <find>inputs</find>
+      <find>ndarr</find>
+      <find>int</find>
     </findStrings>
+    <replaceStrings>
+      <replace>newNode</replace>
+      <replace>uint</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,12 +127,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CNN &amp; LR/Logistic_Regression.py" />
-        <option value="$PROJECT_DIR$/autodiff/autodiff_test.py" />
         <option value="$PROJECT_DIR$/MyTensorFlow/1_adder.py" />
-        <option value="$PROJECT_DIR$/MyTensorFlow/__init__.py" />
-        <option value="$PROJECT_DIR$/autodiff/autodiff.py" />
-        <option value="$PROJECT_DIR$/MyTensorFlow/Mytf.py" />
         <option value="$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py" />
+        <option value="$PROJECT_DIR$/MyTensorFlow/__init__.py" />
+        <option value="$PROJECT_DIR$/autodiff/autodiff_test.py" />
+        <option value="$PROJECT_DIR$/autodiff/autodiff.py" />
+        <option value="$PROJECT_DIR$/add_test.py" />
+        <option value="$PROJECT_DIR$/init.py" />
+        <option value="$PROJECT_DIR$/assign.py" />
+        <option value="$PROJECT_DIR$/MyTensorFlow/Mytf.py" />
       </list>
     </option>
   </component>
@@ -168,9 +149,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="674" />
-    <option name="y" value="82" />
-    <option name="width" value="1531" />
+    <option name="x" value="542" />
+    <option name="y" value="1152" />
+    <option name="width" value="1972" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -190,7 +171,7 @@
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -204,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.session">
+  <component name="RunManager" selected="Python.assign">
     <configuration name="Mytf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -219,6 +200,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyTensorFlow/Mytf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="add_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="assign" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assign.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -262,57 +281,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="session" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/usr/local/lib/python3.5/dist-packages/tensorflow/python/client" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="tensorflow-CNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CNN &amp; LR" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list>
-      <item itemvalue="Python.tensorflow-CNN" />
       <item itemvalue="Python.autodiff" />
       <item itemvalue="Python.autodiff_test" />
       <item itemvalue="Python.Mytf" />
-      <item itemvalue="Python.session" />
+      <item itemvalue="Python.add_test" />
+      <item itemvalue="Python.assign" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.session" />
-        <item itemvalue="Python.tensorflow-CNN" />
-        <item itemvalue="Python.autodiff_test" />
+        <item itemvalue="Python.assign" />
         <item itemvalue="Python.Mytf" />
+        <item itemvalue="Python.add_test" />
+        <item itemvalue="Python.autodiff_test" />
         <item itemvalue="Python.autodiff" />
       </list>
     </recent_temporary>
@@ -342,7 +323,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532150862281</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add EXP and LOG">
+      <created>1532342830593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1532342830593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -355,19 +343,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="674" y="82" width="1531" height="1000" extended-state="0" />
+    <frame x="542" y="1152" width="1972" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21235955" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003266" side_tool="true" weight="0.3269663" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3269663" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49967343" visible="true" weight="0.3269663" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.16927224" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -379,6 +367,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
     </layout>
   </component>
@@ -394,7 +383,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="&quot;week2 init&quot;" />
     <MESSAGE value="Add test_case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add test_case" />
+    <MESSAGE value="add EXP and LOG" />
+    <option name="LAST_COMMIT_MESSAGE" value="add EXP and LOG" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -404,22 +394,150 @@
           <line>903</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MyTensorFlow/Mytf.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="9" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="node_value[output]" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>node_value[output]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <folding>
+            <element signature="e#430#2154#0" />
+            <element signature="e#2182#2907#0" />
+            <element signature="e#2932#3182#0" />
+            <element signature="e#3215#3502#0" />
+            <element signature="e#3831#4686#0" />
+            <element signature="e#4465#5101#0" />
+            <element signature="e#4983#5396#0" />
+            <element signature="e#5433#5875#0" />
+            <element signature="e#6332#7016#0" />
+            <element signature="e#6790#7232#0" />
+            <element signature="e#5900#6353#0" />
+            <element signature="e#6390#6855#0" />
+            <element signature="e#7319#7330#0" />
+            <element signature="e#7015#7148#0" />
+            <element signature="e#7200#7355#0" />
+            <element signature="e#7391#7482#0" />
+            <marker date="1532400125755" expanded="true" signature="9521:9528" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="23" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1426">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="e#10142#11398#0" />
-            <element signature="e#11443#13343#0" />
-            <element signature="e#13474#13607#0" />
-            <element signature="e#13659#13815#0" />
-            <element signature="e#13851#13942#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -427,6 +545,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -491,13 +612,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autodiff/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -526,84 +640,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="316" column="35" selection-start-line="316" selection-start-column="35" selection-end-line="316" selection-end-column="35" />
+        <state relative-caret-position="644">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
-            <element signature="e#934#1009#0" />
-            <element signature="e#1617#1682#0" />
-            <element signature="e#1948#3070#0" />
-            <element signature="e#2031#2253#0" />
-            <element signature="e#2031#2176#1" />
-            <element signature="e#2304#2605#0" />
-            <element signature="e#2304#2571#1" />
-            <element signature="e#2658#3070#0" />
-            <element signature="e#2658#3036#1" />
-            <element signature="e#3093#3722#0" />
-            <element signature="e#3390#3549#0" />
-            <element signature="e#3602#3722#0" />
-            <element signature="e#3752#4409#0" />
-            <element signature="e#3855#4048#0" />
-            <element signature="e#4099#4255#0" />
-            <element signature="e#4308#4409#0" />
-            <element signature="e#4432#5173#0" />
-            <element signature="e#4525#4683#0" />
-            <element signature="e#4734#4930#0" />
-            <element signature="e#4983#5173#0" />
-            <element signature="e#5203#5961#0" />
-            <element signature="e#5311#5504#0" />
-            <element signature="e#5555#5748#0" />
-            <element signature="e#5801#5961#0" />
-            <element signature="e#6104#6513#1" />
-            <element signature="e#6865#7423#0" />
-            <element signature="e#7476#7792#0" />
-            <element signature="e#7476#7640#1" />
-            <element signature="e#7851#7987#0" />
-            <element signature="e#8032#8168#0" />
-            <element signature="e#8221#8293#0" />
-            <element signature="e#8322#8933#0" />
-            <element signature="e#8413#8641#0" />
-            <element signature="e#8692#8843#0" />
-            <element signature="e#8896#8933#0" />
-            <element signature="e#8961#9567#0" />
-            <element signature="e#9051#9277#0" />
-            <element signature="e#9328#9477#0" />
-            <element signature="e#9530#9567#0" />
-            <element signature="e#9973#10143#0" />
-            <element signature="e#9973#10098#1" />
-            <element signature="e#10183#10468#1" />
-            <element signature="e#11144#13070#0" />
-            <element signature="e#11144#11483#1" />
-            <element signature="e#11604#11687#0" />
-            <element signature="e#12247#12925#0" />
-            <element signature="e#12628#12925#0" />
-            <element signature="e#13072#13102#0" />
-            <element signature="e#13202#13694#0" />
-            <element signature="e#13202#13556#1" />
-            <element signature="e#13746#13927#0" />
-            <element signature="e#13963#14155#0" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="-3588">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="453">
+          <caret line="360" column="4" selection-start-line="360" selection-start-column="4" selection-end-line="360" selection-end-column="4" />
           <folding>
-            <element signature="e#10142#11398#0" />
-            <element signature="e#11443#13343#0" />
-            <element signature="e#13474#13607#0" />
-            <element signature="e#13659#13815#0" />
-            <element signature="e#13851#13942#0" />
+            <element signature="e#430#2154#0" />
+            <element signature="e#2182#2907#0" />
+            <element signature="e#2932#3182#0" />
+            <element signature="e#3215#3502#0" />
+            <element signature="e#3831#4686#0" />
+            <element signature="e#4465#5101#0" />
+            <element signature="e#4983#5396#0" />
+            <element signature="e#5433#5875#0" />
+            <element signature="e#6332#7016#0" />
+            <element signature="e#6790#7232#0" />
+            <element signature="e#5900#6353#0" />
+            <element signature="e#6390#6855#0" />
+            <element signature="e#7319#7330#0" />
+            <element signature="e#7015#7148#0" />
+            <element signature="e#7200#7355#0" />
+            <element signature="e#7391#7482#0" />
+            <marker date="1532400125755" expanded="true" signature="9521:9528" ph="..." />
           </folding>
         </state>
       </provider>
