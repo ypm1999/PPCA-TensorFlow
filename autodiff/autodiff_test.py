@@ -102,7 +102,6 @@ def test_mul_two_vars():
     assert np.array_equal(grad_x3_val, x2_val)
     
 
-
 @print_name
 def test_add_mul_mix_1():
     x1 = ad.Variable(name = "x1")
@@ -123,7 +122,6 @@ def test_add_mul_mix_1():
     assert np.array_equal(grad_x1_val, np.ones_like(x1_val) + x2_val * x3_val)
     assert np.array_equal(grad_x2_val, x3_val * x1_val)
     assert np.array_equal(grad_x3_val, x2_val * x1_val)
-    
 
 
 @print_name
@@ -150,7 +148,6 @@ def test_add_mul_mix_2():
     assert np.array_equal(grad_x3_val, x2_val * x4_val)
     assert np.array_equal(grad_x4_val, x2_val * x3_val)
     
-
 
 @print_name
 def test_add_mul_mix_3():
@@ -228,6 +225,16 @@ def test_matmul_two_vars():
     assert np.array_equal(y_val, expected_yval)
     assert np.array_equal(grad_x2_val, expected_grad_x2_val)
     assert np.array_equal(grad_x3_val, expected_grad_x3_val)
+
+@print_name
+def test_exp_of_value():
+
+
+@print_name
+def text_log_of_value():
+    x1 = ad.Varibles(name = "x1")
+    x2 = ad.Varibles(name = "x2")
+
 
 if __name__ == "__main__":
     test_identity()

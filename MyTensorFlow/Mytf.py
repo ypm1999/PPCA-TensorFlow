@@ -23,9 +23,6 @@ uint = uint64 = np.uint64
 #uint128 = np.uint128
 
 
-
-
-#TODO finish Session class
 class Session:
 
     def __init__(self,
@@ -37,12 +34,13 @@ class Session:
         self.config = config
 
     def __enter__(self):
-        pass
+        return self
 
     def __exit__(self, exec_type, exec_val, exec_tb):
-        print(exec_type)
-        print(exec_val)
-        print(exec_tb)
+        if(exec_type):
+            print(exec_type)
+            print(exec_val)
+            print(exec_tb)
 
     def _run(self, output, node_value):
         if type(output) == Op:
@@ -71,8 +69,15 @@ class Session:
         node_value = {}
         if feed_dict:
             for i, j in feed_dict.items():
-                if not i in placeholder.node_list:
+                if not i in placeholder.placeholder_list:
                     raise NameError
+                if i.shape:
+                    shapei = i.shape
+                    shapej = np.shape(j)
+                    assert len(shapei) == len(shapej)
+                    for x in range(len(shapei)):
+                        if(shapei[x] and shapei[x] != shapej[x]):
+                            raise TypeError
                 if isinstance(j, list) :
                     node_value[i] = np.array(j, dtype = i.dtype)
                 else:
@@ -152,8 +157,8 @@ class Op(object):
 
 
 class myplaceholder(Op):
-    node_list = []
-    def __call__(self, dtype, shape = None, name = "placeholder"):
+    placeholder_list = []
+    def __call__(self, dtype, shape = None, name = "plh"):
         newNode = Node()
         newNode.dtype = dtype
         newNode.shape = shape
@@ -161,7 +166,7 @@ class myplaceholder(Op):
         newNode.op = self
         newNode.const_attr = None
         newNode.value = None
-        self.node_list.append(newNode)
+        self.placeholder_list.append(newNode)
         return newNode
 
 
@@ -186,12 +191,43 @@ class myVariable(Op):
             newNode.value = initial_value
         newNode.dtype = dtype
         newNode.name = name
-        newNode.input = [newNode]
+        newNode.input = []
         newNode.op = self
         newNode.const_attr = None
         newNode.shape = newNode.value.shape
         self.node_list.append(newNode)
         return newNode
+
+
+class Assign(Op):
+
+    def __call__(self,
+               ref,
+               value,
+               validate_shape=True,
+               use_locking=None,
+               name="Assign"):
+        assert type(ref.op) == myVariable
+        newNode = Node()
+        newNode.op = self
+        newNode.name = name
+        newNode.value = value
+        newNode.ref = ref
+        newNode.validate_shape = validate_shape
+        return newNode
+
+    def compute(self, node, input_vals):
+        #assert input_vals == None
+        ref = node.ref
+        if isinstance(node.value, list):
+            ref.value = np.array(node.value)
+        else:
+            ref.value = node.value
+        if node.validate_shape:
+            ref.value = np.reshape(ref.value, ref.shape)
+        else:
+            ref.shape = ref.value.shape
+        return ref
 
 
 class myConstant(Op):
@@ -342,22 +378,116 @@ class Mul_byConstant_Op(Op):
         return [node.const_attr * output_grad]
 
 
+class MatMulOp(Op):
+    """Op to matrix multiply two nodes."""
+
+    def __call__(self, node_A, node_B, trans_A = False, trans_B = False):
+        """Create a new node that is the result a matrix multiple of two input nodes.
+
+        Parameters
+        ----------
+        node_A: lhs of matrix multiply
+        node_B: rhs of matrix multiply
+        trans_A: whether to transpose node_A
+        trans_B: whether to transpose node_B
+
+        Returns
+        -------
+        Returns a node that is the result a matrix multiple of two input nodes.
+        """
+        new_node = Op.__call__(self)
+        new_node.matmul_attr_trans_A = trans_A
+        new_node.matmul_attr_trans_B = trans_B
+        new_node.input = [node_A, node_B]
+        new_node.name = "MatMul(%s,%s,%s,%s)" % (node_A.name, node_B.name, str(trans_A), str(trans_B))
+        return new_node
+
+    def compute(self, node, input_vals):
+        assert len(input_vals) == 2
+        if node.matmul_attr_trans_A:
+            if node.matmul_attr_trans_B:
+                return np.dot(input_vals[0].T, input_vals[1].T)
+            else:
+                return np.dot(input_vals[0].T, input_vals[1])
+        else:
+            if node.matmul_attr_trans_B:
+                return np.dot(input_vals[0], input_vals[1].T)
+            else:
+                return np.dot(input_vals[0], input_vals[1])
+
+    def gradient(self, node, output_grad):
+        if node.matmul_attr_trans_A:
+            if node.matmul_attr_trans_B:
+                return [matmul(output_grad, node.input[1], False, False),
+                        matmul(node.input[0], output_grad, False, False)]
+            else:
+                return [matmul(output_grad, node.input[1], False, True),
+                        matmul(node.input[0], output_grad, False, False)]
+        else:
+            if node.matmul_attr_trans_B:
+                return [matmul(output_grad, node.input[1], False, False),
+                        matmul(node.input[0], output_grad, True, False)]
+            else:
+                return [matmul(output_grad, node.input[1], False, True),
+                        matmul(node.input[0], output_grad, True, False)]
+
+
 class Reduce_Sum(Op):
 
-    def __call__(self, ):
+    def __call__(self,
+                 input_tensor,
+                 axis=None,
+                 keepdims=None,
+                 name=None,
+                 reduction_indices=None,
+                 keep_dims=None):
         newNode = Node()
         newNode.op = self
-        newNode.input =
-
+        newNode.input = [input_tensor]
+        newNode.axis = axis
+        newNode.name = name
+        newNode.keepdims = keepdims
         return newNode
 
+    def compute(self, node, input_vals):
+        assert len(input_vals) ==  1
+        if node.keepdims:
+            return np.sum(input_vals, axis = node.axis, keepdims = node.keepdims)
+        else:
+            return np.sum(input_vals, axis = node.axis)
 
-def reduce_sum(input_tensor,
-               axis=None,keepdims=None,
-               name=None,
-               reduction_indices=None,
-               keep_dims=None):
-    if input
+    def gradient(self, node, output_grad):
+        pass
+
+
+class OnesOp(Op):
+
+    def __call__(self,
+                 shape,
+                 dtype=float32,
+                 name=None):
+        newNode = Node()
+        newNode.Op = myVariable()
+        newNode.name = name
+        newNode.shape = shape
+        newNode.dtype = dtype
+        newNode.value = np.ones(shape, dtype)
+        return newNode
+
+class ZeroOp(Op):
+
+    def __call__(self,
+                 shape,
+                 dtype=float32,
+                 name=None):
+        newNode = Node()
+        newNode.Op = myVariable()
+        newNode.name = name
+        newNode.shape = shape
+        newNode.dtype = dtype
+        newNode.value = np.zeros(shape, dtype)
+        return newNode
+
 
 def global_variables_initializer():
     return Op()
@@ -394,37 +524,45 @@ mul_op = MulOp()
 mul_byconst_op = Mul_byConstant_Op()
 sub_op = SubOp()
 sub_byconst_op = Sub_byConstant_Op()
+reduce_sum = Reduce_Sum()
+assign = Assign()
+matmul = MatMulOp()
 
 
 if __name__ == "__main__":
+
     sess = Session()
 
-    W = Variable([.5], dtype = float32)
-    b = Variable([1.5], dtype = float32)
-    x = placeholder(float32)
+    W = Variable([[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12]], dtype = float32)
+    b = Variable([0.1, 0.1, 0.1, 0.1], dtype = float32)
+    x = placeholder(float64, [None, 3])
+    feed = {x:[[10, 3, 5], [1, 30, 5], [1, 3, 50], [1, 3, 5], [1, 3, 5], [1, 3, 5], [1, 3, 5]]}
+    linear_modle = matmul(x, W) + b
+    print(sess.run(linear_modle, feed))
 
-    linear_model = W * x + b
-
-    # define error
-    y = placeholder(float32)
-    error = reduce_sum(linear_model - y)
-
-    # run init
-    init = global_variables_initializer()
-    sess.run(init)
-
-    # calc error
-    feed = {x: [1, 2, 3, 4], y: [0, -1, -2, -3]}
-
-    # assign
-    fixW = assign(W, [-1.0])
-    fixb = assign(b, [1.])
-    sess.run([fixW, fixb])
-    ans = sess.run(error, feed)
-
-    assert np.equal(ans, 0)
-
-    # # linear model
+    # #NOTE:assign
+    # W = Variable([.5], dtype = float32)
+    # b = Variable([1.5], dtype = float32)
+    # x = placeholder(float32)
+    #
+    # linear_model = W * x + b
+    #
+    # y = placeholder(float32)
+    # error = reduce_sum(linear_model - y)
+    #
+    # init = global_variables_initializer()
+    # sess.run(init)
+    #
+    # feed = {x: [1, 2, 3, 4], y: [0, -1, -2, -3]}
+    #
+    # fixW = assign(W, [-1.0])
+    # fixb = assign(b, [1.])
+    # sess.run([fixW, fixb])
+    # ans = sess.run(error, feed)
+    #
+    # assert np.equal(ans, 0)
+    #
+    # #init
     # W = Variable([.5], dtype = float32, name = 'W')
     # b = Variable([1.5], dtype = float32, name = 'b')
     # x = placeholder(float32, name = 'x')
@@ -437,6 +575,7 @@ if __name__ == "__main__":
     # ans = sess.run(linear_model, {x: [1, 2, 3, 4]})
     # assert np.array_equal(ans, [2, 2.5, 3, 3.5])
     #
+    # #add_node
     # a = placeholder(float64)
     # b = placeholder(float64)
     # adder_node = a + b
@@ -448,8 +587,16 @@ if __name__ == "__main__":
     # ans = sess.run(adder_node, {a: [1, 3], b: [2, 3]})
     # assert np.array_equal(ans, [3, 6])
     # ans = sess.run(adder_node, {a: [[1, 3],[1, 3]], b: [[2, 3]]})
-
-    # x1 = constant([10, 10], name = "x1")
-    # print(x1.shape)
-    # print(x1.name)
-    # print(x1)
+    #
+    #
+    # #context
+    # a = placeholder(float32)
+    # b = placeholder(float32)
+    # adder_node = a + b
+    #
+    # with Session() as sess:
+    #     ans = sess.run(adder_node, {a: 3, b: 4.5})
+    #     assert np.equal(ans, 7.5)
+    #
+    #     ans = sess.run(adder_node, {a: [1, 3], b: [2, 3]})
+    #     assert np.array_equal(ans, [3, 6])

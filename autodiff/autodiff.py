@@ -2,7 +2,7 @@ import numpy as np
 
 class Node(object):
     def __init__(self):
-        self.inputs = []
+        self.input = []
         self.op = None
         self.const_attr = None
         self.name = ""
@@ -86,7 +86,7 @@ class AddOp(Op):
     """Op to element-wise add two nodes."""
     def __call__(self, node_A, node_B):
         new_node = Op.__call__(self)
-        new_node.inputs = [node_A, node_B]
+        new_node.input = [node_A, node_B]
         new_node.name = "(%s+%s)" % (node_A.name, node_B.name)
         return new_node
 
@@ -104,7 +104,7 @@ class AddByConstOp(Op):
     def __call__(self, node_A, const_val):
         new_node = Op.__call__(self)
         new_node.const_attr = const_val
-        new_node.inputs = [node_A]
+        new_node.input = [node_A]
         new_node.name = "(%s+%s)" % (node_A.name, str(const_val))
         return new_node
 
@@ -121,7 +121,7 @@ class MulOp(Op):
     """Op to element-wise multiply two nodes."""
     def __call__(self, node_A, node_B):
         new_node = Op.__call__(self)
-        new_node.inputs = [node_A, node_B]
+        new_node.input = [node_A, node_B]
         new_node.name = "(%s*%s)" % (node_A.name, node_B.name)
         return new_node
 
@@ -134,25 +134,23 @@ class MulOp(Op):
     def gradient(self, node, output_grad):
         """Given gradient of multiply node, return gradient contributions to each input."""
         # TODO: Your code here
-        return [node.inputs[1] * output_grad, node.inputs[0] * output_grad]
+        return [node.input[1] * output_grad, node.input[0] * output_grad]
 
 class MulByConstOp(Op):
     """Op to element-wise multiply a nodes by a constant."""
     def __call__(self, node_A, const_val):
         new_node = Op.__call__(self)
         new_node.const_attr = const_val
-        new_node.inputs = [node_A]
+        new_node.input = [node_A]
         new_node.name = "(%s*%s)" % (node_A.name, str(const_val))
         return new_node
 
     def compute(self, node, input_vals):
         """Given values of input node, return result of element-wise multiplication."""
-        #TODO1: Your code here
         assert len(input_vals) == 1
         return input_vals[0] * node.const_attr
 
     def gradient(self, node, output_grad):
-        #TODO: Your code here
         """Given gradient of multiplication node, return gradient contribution to input."""
         return [node.const_attr * output_grad]
 
@@ -175,7 +173,7 @@ class MatMulOp(Op):
         new_node = Op.__call__(self)
         new_node.matmul_attr_trans_A = trans_A
         new_node.matmul_attr_trans_B = trans_B
-        new_node.inputs = [node_A, node_B]
+        new_node.input = [node_A, node_B]
         new_node.name = "MatMul(%s,%s,%s,%s)" % (node_A.name, node_B.name, str(trans_A), str(trans_B))
         return new_node
 
@@ -202,23 +200,23 @@ class MatMulOp(Op):
         #TODO: Your code here
         if node.matmul_attr_trans_A:
             if node.matmul_attr_trans_B:
-                return [matmul_op(output_grad, node.inputs[1], False, False),
-                        matmul_op(node.inputs[0], output_grad, False, False)]
+                return [matmul_op(output_grad, node.input[1], False, False),
+                        matmul_op(node.input[0], output_grad, False, False)]
             else:
-                return [matmul_op(output_grad, node.inputs[1], False, True),
-                        matmul_op(node.inputs[0], output_grad, False, False)]
+                return [matmul_op(output_grad, node.input[1], False, True),
+                        matmul_op(node.input[0], output_grad, False, False)]
         else:
             if node.matmul_attr_trans_B:
-                return [matmul_op(output_grad, node.inputs[1], False, False),
-                        matmul_op(node.inputs[0], output_grad, True, False)]
+                return [matmul_op(output_grad, node.input[1], False, False),
+                        matmul_op(node.input[0], output_grad, True, False)]
             else:
-                return [matmul_op(output_grad, node.inputs[1], False, True),
-                        matmul_op(node.inputs[0], output_grad, True, False)]
+                return [matmul_op(output_grad, node.input[1], False, True),
+                        matmul_op(node.input[0], output_grad, True, False)]
 
 class ExpOp(Op):
     def __call__(self, node_A):
         new_node = Op.__call__(self)
-        new_node.inputs = [node_A]
+        new_node.input = [node_A]
         new_node.name = "Exp(%s)" % node_A.name;
         return new_node
 
@@ -227,14 +225,14 @@ class ExpOp(Op):
         return np.exp(input_vals[0])
 
     def gradient(self, node, output_grad):
-        return [output_grad * np.exp(node.inputs[0])]
+        return [output_grad * np.exp(node.input[0])]
 
 
 
 class LogOp(Op):
     def __call__(self, node_A):
         new_node = Op.__call__(self)
-        new_node.inputs = [node_A]
+        new_node.input = [node_A]
         new_node.name = "Log(%s)" % node_A.name;
         return new_node
 
@@ -243,7 +241,7 @@ class LogOp(Op):
         return np.log(input_vals[0])
 
     def gradient(self, node, output_grad):
-        return [1 / node.inputs[0] * output_grad]
+        return [1 / node.input[0] * output_grad]
 
 
 class PlaceholderOp(Op):
@@ -258,7 +256,7 @@ class PlaceholderOp(Op):
         assert False, "placeholder values provided by feed_dict"
 
     def gradient(self, node, output_grad):
-        """No gradient function since node has no inputs."""
+        """No gradient function since node has no input."""
         return None
 
 class ZerosLikeOp(Op):
@@ -266,7 +264,7 @@ class ZerosLikeOp(Op):
     def __call__(self, node_A):
         """Creates a node that represents a np.zeros array of same shape as node_A."""
         new_node = Op.__call__(self)
-        new_node.inputs = [node_A]
+        new_node.input = [node_A]
         new_node.name = "Zeroslike(%s)" % node_A.name
         return new_node
 
@@ -276,14 +274,14 @@ class ZerosLikeOp(Op):
         return np.zeros(input_vals[0].shape)
 
     def gradient(self, node, output_grad):
-        return [zeroslike_op(node.inputs[0])]
+        return [zeroslike_op(node.input[0])]
 
 class OnesLikeOp(Op):
     """Op that represents a constant np.ones_like."""
     def __call__(self, node_A):
         """Creates a node that represents a np.ones array of same shape as node_A."""
         new_node = Op.__call__(self)
-        new_node.inputs = [node_A]
+        new_node.input = [node_A]
         new_node.name = "Oneslike(%s)" % node_A.name
         return new_node
 
@@ -293,7 +291,7 @@ class OnesLikeOp(Op):
         return np.ones(input_vals[0].shape)
 
     def gradient(self, node, output_grad):
-        return [zeroslike_op(node.inputs[0])]
+        return [zeroslike_op(node.input[0])]
 
 # Create global singletons of operators.
 add_op = AddOp()
@@ -333,7 +331,7 @@ class Executor:
             if node in node_to_val_map:
                 continue
             val = []
-            for input in node.inputs:
+            for input in node.input:
                 val.append(node_to_val_map[input])
             node_to_val_map[node] = node.op.compute(node, val)
         # Collect node values.
@@ -367,19 +365,17 @@ def gradients(output_node, node_list):
 
     #TODO: Your code here
     for node in reverse_topo_order:
-        #print(node)
         grad = sum_node_list(node_to_output_grads_list[node])
-        print(grad.inputs)
+
         node_to_output_grad[node] = grad
         input_grads = node.op.gradient(node, grad)
         if input_grads == None:
             continue
-        for i in range(len(node.inputs)):
-            if node_to_output_grads_list.get(node.inputs[i]) == None:
-                node_to_output_grads_list[node.inputs[i]] = [input_grads[i]]
+        for i in range(len(node.input)):
+            if node_to_output_grads_list.get(node.input[i]) == None:
+                node_to_output_grads_list[node.input[i]] = [input_grads[i]]
             else:
-                node_to_output_grads_list[node.inputs[i]].append(input_grads[i])
-            #print("%s, %s" % (node.inputs[i], input_grads[i]))
+                node_to_output_grads_list[node.input[i]].append(input_grads[i])
 
     # Collect results for gradients requested.
     grad_node_list = [node_to_output_grad[node] for node in node_list]
@@ -409,7 +405,7 @@ def topo_sort_dfs(node, visited, topo_order):
     if node in visited:
         return
     visited.add(node)
-    for n in node.inputs:
+    for n in node.input:
         topo_sort_dfs(n, visited, topo_order)
     topo_order.append(node)
 

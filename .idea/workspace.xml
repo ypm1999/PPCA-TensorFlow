@@ -6,6 +6,8 @@
       <change beforePath="$PROJECT_DIR$/MyTensorFlow/Mytf.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyTensorFlow/Mytf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autodiff/autodiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodiff/autodiff.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autodiff/autodiff_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodiff/autodiff_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/testcase/10_cnn_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/testcase/10_cnn_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/testcase/9_cnn_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/testcase/9_cnn_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,42 +17,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$Mytf.coverage" NAME="Mytf Coverage Results" MODIFIED="1532396617772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTensorFlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$10_cnn_2.coverage" NAME="10_cnn_2 Coverage Results" MODIFIED="1532418915088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/testcase" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$Mytf.coverage" NAME="Mytf Coverage Results" MODIFIED="1532424131587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTensorFlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$tensorflow_CNN.coverage" NAME="tensorflow-CNN Coverage Results" MODIFIED="1532337434354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$assign.coverage" NAME="assign Coverage Results" MODIFIED="1532398890854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$9_cnn_1.coverage" NAME="9_cnn_1 Coverage Results" MODIFIED="1532418873726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/testcase" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$add_test.coverage" NAME="add_test Coverage Results" MODIFIED="1532355987113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Logistic_Regression.coverage" NAME="Logistic_Regression Coverage Results" MODIFIED="1532151022933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff_test.coverage" NAME="autodiff_test Coverage Results" MODIFIED="1532351406260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff_test.coverage" NAME="autodiff_test Coverage Results" MODIFIED="1532417780747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$session.coverage" NAME="session Coverage Results" MODIFIED="1532342725907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.5/dist-packages/tensorflow/python/client" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff.coverage" NAME="autodiff Coverage Results" MODIFIED="1532351397337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.72718054">
+    <splitter split-orientation="horizontal" split-proportion="0.61612576">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="Mytf.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="453">
-                  <caret line="360" column="4" selection-start-line="360" selection-start-column="4" selection-end-line="360" selection-end-column="4" />
+                <state relative-caret-position="223">
+                  <caret line="556" column="5" lean-forward="true" selection-start-line="556" selection-start-column="5" selection-end-line="556" selection-end-column="5" />
                   <folding>
-                    <element signature="e#430#2154#0" />
-                    <element signature="e#2182#2907#0" />
-                    <element signature="e#2932#3182#0" />
-                    <element signature="e#3215#3502#0" />
-                    <element signature="e#3831#4686#0" />
-                    <element signature="e#4465#5101#0" />
-                    <element signature="e#4983#5396#0" />
-                    <element signature="e#5433#5875#0" />
-                    <element signature="e#6332#7016#0" />
-                    <element signature="e#6790#7232#0" />
-                    <element signature="e#5900#6353#0" />
-                    <element signature="e#6390#6855#0" />
-                    <element signature="e#7319#7330#0" />
-                    <element signature="e#7015#7148#0" />
-                    <element signature="e#7200#7355#0" />
-                    <element signature="e#7391#7482#0" />
-                    <marker date="1532400125755" expanded="true" signature="9521:9528" ph="..." />
+                    <element signature="n#!!doc" />
+                    <element signature="e#522#598#0" />
+                    <element signature="e#633#644#0" />
+                    <element signature="e#708#806#0" />
+                    <element signature="e#735#806#0" />
+                    <element signature="e#2094#2197#0" />
+                    <element signature="e#2250#2353#0" />
+                    <element signature="e#2470#3541#0" />
+                    <element signature="e#2498#2666#0" />
+                    <element signature="e#2706#2833#0" />
+                    <element signature="e#2873#3000#0" />
+                    <element signature="e#3040#3167#0" />
+                    <element signature="e#3208#3347#0" />
+                    <element signature="e#3427#3517#0" />
+                    <element signature="e#3567#3817#0" />
+                    <element signature="e#3595#3663#0" />
+                    <element signature="e#3714#3739#0" />
+                    <element signature="e#3792#3817#0" />
+                    <element signature="e#4176#5024#0" />
+                    <element signature="e#4605#5024#0" />
+                    <element signature="e#5050#5855#0" />
+                    <element signature="e#5219#5458#0" />
+                    <element signature="e#5509#5855#0" />
+                    <element signature="e#5884#6557#0" />
+                    <element signature="e#6089#6557#0" />
+                    <element signature="e#6581#6994#0" />
+                    <element signature="e#6623#6785#0" />
+                    <element signature="e#6836#6908#0" />
+                    <element signature="e#6961#6994#0" />
+                    <element signature="e#7031#7473#0" />
+                    <element signature="e#7077#7275#0" />
+                    <element signature="e#7326#7400#0" />
+                    <element signature="e#7453#7473#0" />
+                    <element signature="e#7497#8232#0" />
+                    <element signature="e#7554#7844#0" />
+                    <element signature="e#7895#8057#0" />
+                    <element signature="e#8110#8232#0" />
+                    <element signature="e#8269#9025#0" />
+                    <element signature="e#8330#8660#0" />
+                    <element signature="e#8711#8877#0" />
+                    <element signature="e#8930#9025#0" />
+                    <element signature="e#9050#9503#0" />
+                    <element signature="e#9094#9262#0" />
+                    <element signature="e#9313#9385#0" />
+                    <element signature="e#9438#9503#0" />
+                    <element signature="e#9540#10005#0" />
+                    <element signature="e#9587#9789#0" />
+                    <element signature="e#9840#9914#0" />
+                    <element signature="e#9967#10005#0" />
+                    <element signature="e#10180#12631#0" />
+                    <element signature="e#10752#10763#0" />
+                    <element signature="e#10801#10934#0" />
+                    <element signature="e#10986#11141#0" />
+                    <element signature="e#11177#11268#0" />
                   </folding>
                 </state>
               </provider>
@@ -59,8 +100,35 @@
           <file leaf-file-name="assign.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/assign.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+                <state relative-caret-position="345">
+                  <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="context.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/context.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="init.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/init.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mnist_grad.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnist_grad.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="460">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                 </state>
               </provider>
             </entry>
@@ -68,8 +136,8 @@
           <file leaf-file-name="autodiff.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3588">
-                  <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+                <state relative-caret-position="88">
+                  <caret line="156" selection-start-line="156" selection-end-line="213" selection-end-column="75" />
                 </state>
               </provider>
             </entry>
@@ -77,8 +145,18 @@
           <file leaf-file-name="autodiff_test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+                <state relative-caret-position="3979">
+                  <caret line="236" selection-start-line="236" selection-end-line="236" />
+                  <folding>
+                    <element signature="e#0#21#0" expanded="true" />
+                    <element signature="e#80#340#0" />
+                    <element signature="e#104#325#0" />
+                    <element signature="e#773#1130#0" />
+                    <element signature="e#1179#1540#0" />
+                    <element signature="e#1584#2118#0" />
+                    <element signature="e#2162#2671#0" />
+                    <marker date="1532417988047" expanded="true" signature="7277:7280" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -90,11 +168,8 @@
           <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-                  <folding>
-                    <element signature="e#0#38#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="46">
+                  <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -109,15 +184,16 @@
       <find>TODO:</find>
       <find>&quot;&quot;&quot;TODO: Your code here1&quot;&quot;&quot;</find>
       <find>print(&quot;    \033[1;32mPassed\033[0m!&quot;)</find>
-      <find>print</find>
       <find>self</find>
-      <find>inputs</find>
       <find>ndarr</find>
       <find>int</find>
+      <find>inputs</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>newNode</replace>
       <replace>uint</replace>
+      <replace>input</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -130,11 +206,14 @@
         <option value="$PROJECT_DIR$/MyTensorFlow/1_adder.py" />
         <option value="$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py" />
         <option value="$PROJECT_DIR$/MyTensorFlow/__init__.py" />
-        <option value="$PROJECT_DIR$/autodiff/autodiff_test.py" />
-        <option value="$PROJECT_DIR$/autodiff/autodiff.py" />
         <option value="$PROJECT_DIR$/add_test.py" />
         <option value="$PROJECT_DIR$/init.py" />
         <option value="$PROJECT_DIR$/assign.py" />
+        <option value="$PROJECT_DIR$/mnist_grad.py" />
+        <option value="$PROJECT_DIR$/autodiff/autodiff.py" />
+        <option value="$PROJECT_DIR$/autodiff/autodiff_test.py" />
+        <option value="$PROJECT_DIR$/testcase/testcase/10_cnn_2.py" />
+        <option value="$PROJECT_DIR$/testcase/testcase/9_cnn_1.py" />
         <option value="$PROJECT_DIR$/MyTensorFlow/Mytf.py" />
       </list>
     </option>
@@ -149,9 +228,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="542" />
-    <option name="y" value="1152" />
-    <option name="width" value="1972" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -185,7 +264,45 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assign">
+  <component name="RunManager" selected="Python.Mytf">
+    <configuration name="10_cnn_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/testcase/10_cnn_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="9_cnn_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/testcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/testcase/9_cnn_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Mytf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,25 +322,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="add_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="assign" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -238,25 +336,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assign.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="autodiff" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autodiff" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autodiff/autodiff.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,19 +361,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.autodiff" />
       <item itemvalue="Python.autodiff_test" />
       <item itemvalue="Python.Mytf" />
-      <item itemvalue="Python.add_test" />
       <item itemvalue="Python.assign" />
+      <item itemvalue="Python.10_cnn_2" />
+      <item itemvalue="Python.9_cnn_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.assign" />
         <item itemvalue="Python.Mytf" />
-        <item itemvalue="Python.add_test" />
+        <item itemvalue="Python.10_cnn_2" />
+        <item itemvalue="Python.9_cnn_1" />
         <item itemvalue="Python.autodiff_test" />
-        <item itemvalue="Python.autodiff" />
+        <item itemvalue="Python.assign" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532342830593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="backup">
+      <created>1532400255283</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1532400255283</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -343,7 +429,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="542" y="1152" width="1972" height="1000" extended-state="0" />
+    <frame x="65" y="24" width="1855" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21235955" />
@@ -351,7 +437,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49967343" visible="true" weight="0.3269663" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49967343" visible="true" weight="0.21011236" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.16927224" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -360,15 +446,15 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.30020493" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959569" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="8" weight="0.30020493" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +470,8 @@
     <MESSAGE value="&quot;week2 init&quot;" />
     <MESSAGE value="Add test_case" />
     <MESSAGE value="add EXP and LOG" />
-    <option name="LAST_COMMIT_MESSAGE" value="add EXP and LOG" />
+    <MESSAGE value="backup" />
+    <option name="LAST_COMMIT_MESSAGE" value="backup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,11 +481,6 @@
           <line>903</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/MyTensorFlow/Mytf.py</url>
-          <line>50</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -407,7 +489,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="27" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -427,26 +509,178 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9039">
+          <caret line="393" column="25" selection-start-line="393" selection-start-column="25" selection-end-line="393" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#522#598#0" />
+            <element signature="e#633#644#0" />
+            <element signature="e#708#806#0" />
+            <element signature="e#735#806#0" />
+            <element signature="e#2094#2197#0" />
+            <element signature="e#2250#2353#0" />
+            <element signature="e#2470#3541#0" />
+            <element signature="e#2498#2666#0" />
+            <element signature="e#2706#2833#0" />
+            <element signature="e#2873#3000#0" />
+            <element signature="e#3040#3167#0" />
+            <element signature="e#3208#3347#0" />
+            <element signature="e#3427#3517#0" />
+            <element signature="e#3567#3817#0" />
+            <element signature="e#3595#3663#0" />
+            <element signature="e#3714#3739#0" />
+            <element signature="e#3792#3817#0" />
+            <element signature="e#4176#5024#0" />
+            <element signature="e#4605#5024#0" />
+            <element signature="e#5050#5855#0" />
+            <element signature="e#5219#5458#0" />
+            <element signature="e#5509#5855#0" />
+            <element signature="e#5884#6557#0" />
+            <element signature="e#6089#6557#0" />
+            <element signature="e#6581#6994#0" />
+            <element signature="e#6623#6785#0" />
+            <element signature="e#6836#6908#0" />
+            <element signature="e#6961#6994#0" />
+            <element signature="e#7031#7473#0" />
+            <element signature="e#7077#7275#0" />
+            <element signature="e#7326#7400#0" />
+            <element signature="e#7453#7473#0" />
+            <element signature="e#7497#8232#0" />
+            <element signature="e#7554#7844#0" />
+            <element signature="e#7895#8057#0" />
+            <element signature="e#8110#8232#0" />
+            <element signature="e#8269#9025#0" />
+            <element signature="e#8330#8660#0" />
+            <element signature="e#8711#8877#0" />
+            <element signature="e#8930#9025#0" />
+            <element signature="e#9050#9503#0" />
+            <element signature="e#9094#9262#0" />
+            <element signature="e#9313#9385#0" />
+            <element signature="e#9438#9503#0" />
+            <element signature="e#9540#10005#0" />
+            <element signature="e#9587#9789#0" />
+            <element signature="e#9840#9914#0" />
+            <element signature="e#9967#10005#0" />
+            <element signature="e#10180#12631#0" />
+            <element signature="e#10752#10763#0" />
+            <element signature="e#10801#10934#0" />
+            <element signature="e#10986#11141#0" />
+            <element signature="e#11177#11268#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_grad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/testcase/9_cnn_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="21" lean-forward="true" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/testcase/10_cnn_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8487">
+          <caret line="369" column="29" selection-start-line="369" selection-start-column="29" selection-end-line="369" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3979">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#80#340#0" />
+            <element signature="e#104#325#0" />
+            <element signature="e#773#1130#0" />
+            <element signature="e#1179#1540#0" />
+            <element signature="e#1584#2118#0" />
+            <element signature="e#2162#2671#0" />
+            <marker date="1532417988047" expanded="true" signature="7277:7280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1794">
           <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
           <folding>
-            <element signature="e#430#2154#0" />
-            <element signature="e#2182#2907#0" />
-            <element signature="e#2932#3182#0" />
-            <element signature="e#3215#3502#0" />
-            <element signature="e#3831#4686#0" />
-            <element signature="e#4465#5101#0" />
-            <element signature="e#4983#5396#0" />
-            <element signature="e#5433#5875#0" />
-            <element signature="e#6332#7016#0" />
-            <element signature="e#6790#7232#0" />
-            <element signature="e#5900#6353#0" />
-            <element signature="e#6390#6855#0" />
-            <element signature="e#7319#7330#0" />
-            <element signature="e#7015#7148#0" />
-            <element signature="e#7200#7355#0" />
-            <element signature="e#7391#7482#0" />
-            <marker date="1532400125755" expanded="true" signature="9521:9528" ph="..." />
+            <element signature="n#!!doc" />
+            <element signature="e#522#598#0" />
+            <element signature="e#633#644#0" />
+            <element signature="e#708#806#0" />
+            <element signature="e#735#806#0" />
+            <element signature="e#2094#2197#0" />
+            <element signature="e#2250#2353#0" />
+            <element signature="e#2470#3541#0" />
+            <element signature="e#2498#2666#0" />
+            <element signature="e#2706#2833#0" />
+            <element signature="e#2873#3000#0" />
+            <element signature="e#3040#3167#0" />
+            <element signature="e#3208#3347#0" />
+            <element signature="e#3427#3517#0" />
+            <element signature="e#3567#3817#0" />
+            <element signature="e#3595#3663#0" />
+            <element signature="e#3714#3739#0" />
+            <element signature="e#3792#3817#0" />
+            <element signature="e#4176#5024#0" />
+            <element signature="e#4605#5024#0" />
+            <element signature="e#5050#5855#0" />
+            <element signature="e#5219#5458#0" />
+            <element signature="e#5509#5855#0" />
+            <element signature="e#5884#6557#0" />
+            <element signature="e#6089#6557#0" />
+            <element signature="e#6581#6994#0" />
+            <element signature="e#6623#6785#0" />
+            <element signature="e#6836#6908#0" />
+            <element signature="e#6961#6994#0" />
+            <element signature="e#7031#7473#0" />
+            <element signature="e#7077#7275#0" />
+            <element signature="e#7326#7400#0" />
+            <element signature="e#7453#7473#0" />
+            <element signature="e#7497#8232#0" />
+            <element signature="e#7554#7844#0" />
+            <element signature="e#7895#8057#0" />
+            <element signature="e#8110#8232#0" />
+            <element signature="e#8269#9025#0" />
+            <element signature="e#8330#8660#0" />
+            <element signature="e#8711#8877#0" />
+            <element signature="e#8930#9025#0" />
+            <element signature="e#9050#9503#0" />
+            <element signature="e#9094#9262#0" />
+            <element signature="e#9313#9385#0" />
+            <element signature="e#9438#9503#0" />
+            <element signature="e#9540#10005#0" />
+            <element signature="e#9587#9789#0" />
+            <element signature="e#9840#9914#0" />
+            <element signature="e#9967#10005#0" />
+            <element signature="e#10180#12631#0" />
+            <element signature="e#10752#10763#0" />
+            <element signature="e#10801#10934#0" />
+            <element signature="e#10986#11141#0" />
+            <element signature="e#11177#11268#0" />
           </folding>
         </state>
       </provider>
@@ -476,6 +710,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#80#340#0" />
+            <element signature="e#104#325#0" />
+            <element signature="e#773#1130#0" />
+            <element signature="e#1179#1540#0" />
+            <element signature="e#1584#2118#0" />
+            <element signature="e#2162#2671#0" />
+            <marker date="1532417988047" expanded="true" signature="7277:7280" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -483,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -640,13 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/add_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -656,64 +884,150 @@
     </entry>
     <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="184">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
+    <entry file="file://$USER_HOME$/.local/lib/python3.5/site-packages/numpy/core/fromnumeric.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="2239">
+          <caret line="1867" column="31" lean-forward="true" selection-start-line="1867" selection-start-column="31" selection-end-line="1867" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3979">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#80#340#0" />
+            <element signature="e#104#325#0" />
+            <element signature="e#773#1130#0" />
+            <element signature="e#1179#1540#0" />
+            <element signature="e#1584#2118#0" />
+            <element signature="e#2162#2671#0" />
+            <marker date="1532417988047" expanded="true" signature="7277:7280" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/testcase/9_cnn_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="78" column="21" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/testcase/10_cnn_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="46">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
+    <entry file="file://$PROJECT_DIR$/init.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3588">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mnist_grad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assign.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="345">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="156" selection-start-line="156" selection-end-line="213" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="360" column="4" selection-start-line="360" selection-start-column="4" selection-end-line="360" selection-end-column="4" />
+        <state relative-caret-position="223">
+          <caret line="556" column="5" lean-forward="true" selection-start-line="556" selection-start-column="5" selection-end-line="556" selection-end-column="5" />
           <folding>
-            <element signature="e#430#2154#0" />
-            <element signature="e#2182#2907#0" />
-            <element signature="e#2932#3182#0" />
-            <element signature="e#3215#3502#0" />
-            <element signature="e#3831#4686#0" />
-            <element signature="e#4465#5101#0" />
-            <element signature="e#4983#5396#0" />
-            <element signature="e#5433#5875#0" />
-            <element signature="e#6332#7016#0" />
-            <element signature="e#6790#7232#0" />
-            <element signature="e#5900#6353#0" />
-            <element signature="e#6390#6855#0" />
-            <element signature="e#7319#7330#0" />
-            <element signature="e#7015#7148#0" />
-            <element signature="e#7200#7355#0" />
-            <element signature="e#7391#7482#0" />
-            <marker date="1532400125755" expanded="true" signature="9521:9528" ph="..." />
+            <element signature="n#!!doc" />
+            <element signature="e#522#598#0" />
+            <element signature="e#633#644#0" />
+            <element signature="e#708#806#0" />
+            <element signature="e#735#806#0" />
+            <element signature="e#2094#2197#0" />
+            <element signature="e#2250#2353#0" />
+            <element signature="e#2470#3541#0" />
+            <element signature="e#2498#2666#0" />
+            <element signature="e#2706#2833#0" />
+            <element signature="e#2873#3000#0" />
+            <element signature="e#3040#3167#0" />
+            <element signature="e#3208#3347#0" />
+            <element signature="e#3427#3517#0" />
+            <element signature="e#3567#3817#0" />
+            <element signature="e#3595#3663#0" />
+            <element signature="e#3714#3739#0" />
+            <element signature="e#3792#3817#0" />
+            <element signature="e#4176#5024#0" />
+            <element signature="e#4605#5024#0" />
+            <element signature="e#5050#5855#0" />
+            <element signature="e#5219#5458#0" />
+            <element signature="e#5509#5855#0" />
+            <element signature="e#5884#6557#0" />
+            <element signature="e#6089#6557#0" />
+            <element signature="e#6581#6994#0" />
+            <element signature="e#6623#6785#0" />
+            <element signature="e#6836#6908#0" />
+            <element signature="e#6961#6994#0" />
+            <element signature="e#7031#7473#0" />
+            <element signature="e#7077#7275#0" />
+            <element signature="e#7326#7400#0" />
+            <element signature="e#7453#7473#0" />
+            <element signature="e#7497#8232#0" />
+            <element signature="e#7554#7844#0" />
+            <element signature="e#7895#8057#0" />
+            <element signature="e#8110#8232#0" />
+            <element signature="e#8269#9025#0" />
+            <element signature="e#8330#8660#0" />
+            <element signature="e#8711#8877#0" />
+            <element signature="e#8930#9025#0" />
+            <element signature="e#9050#9503#0" />
+            <element signature="e#9094#9262#0" />
+            <element signature="e#9313#9385#0" />
+            <element signature="e#9438#9503#0" />
+            <element signature="e#9540#10005#0" />
+            <element signature="e#9587#9789#0" />
+            <element signature="e#9840#9914#0" />
+            <element signature="e#9967#10005#0" />
+            <element signature="e#10180#12631#0" />
+            <element signature="e#10752#10763#0" />
+            <element signature="e#10801#10934#0" />
+            <element signature="e#10986#11141#0" />
+            <element signature="e#11177#11268#0" />
           </folding>
         </state>
       </provider>
