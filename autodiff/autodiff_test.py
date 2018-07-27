@@ -226,14 +226,6 @@ def test_matmul_two_vars():
     assert np.array_equal(grad_x2_val, expected_grad_x2_val)
     assert np.array_equal(grad_x3_val, expected_grad_x3_val)
 
-@print_name
-def test_exp_of_value():
-
-
-@print_name
-def text_log_of_value():
-    x1 = ad.Varibles(name = "x1")
-    x2 = ad.Varibles(name = "x2")
 
 
 if __name__ == "__main__":

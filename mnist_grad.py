@@ -27,11 +27,22 @@ sess.run(tf.global_variables_initializer())
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 
-n = 1
+
+t = tf.matmul(x, W) + b
+db = tf.gradients(t, [b])[0]
+tmp = tf.gradients(t, [W, b])
+tmp1 = tf.gradients(tmp[0], [W])
+
+n = 3
 data_x = np.array([mnist.train.images[i] for i in range(n)])
 data_y = np.array([mnist.train.labels[i] for i in range(n)])
 print("start")
-print(sess.run(tf.gradients(y, [W])[0], feed_dict = {x: data_x, y_: data_y}))
+print(np.shape(sess.run(db, feed_dict = {x: data_x, y_: data_y})))
+print(np.shape(sess.run(tmp[0], feed_dict = {x: data_x, y_: data_y})))
+print(np.shape(sess.run(tmp[1], feed_dict = {x: data_x, y_: data_y})))
+print(np.shape(sess.run(tmp1[0], feed_dict = {x: data_x, y_: data_y})))
+#print(np.shape(sess.run(tmp1[1], feed_dict = {x: data_x, y_: data_y})))
+#print(sess.run(tf.gradients(y, [W])[0], feed_dict = {x: data_x, y_: data_y}))
 exit(0)
 
 

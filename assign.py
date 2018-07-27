@@ -1,9 +1,12 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-import tensorflow as tf
+import tensorlow as tf
 """ your model should support the following code """
 
 import numpy as np
+
+print(dir(tf.ops))
+exit(0)
 
 sess = tf.Session()
 

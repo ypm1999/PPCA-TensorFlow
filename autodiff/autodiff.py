@@ -255,9 +255,6 @@ class PlaceholderOp(Op):
         """No compute function since node value is fed directly in Executor."""
         assert False, "placeholder values provided by feed_dict"
 
-    def gradient(self, node, output_grad):
-        """No gradient function since node has no input."""
-        return None
 
 class ZerosLikeOp(Op):
     """Op that represents a constant np.zeros_like."""
@@ -368,9 +365,9 @@ def gradients(output_node, node_list):
         grad = sum_node_list(node_to_output_grads_list[node])
 
         node_to_output_grad[node] = grad
-        input_grads = node.op.gradient(node, grad)
-        if input_grads == None:
+        if isinstance(node.op, PlaceholderOp):
             continue
+        input_grads = node.op.gradient(node, grad)
         for i in range(len(node.input)):
             if node_to_output_grads_list.get(node.input[i]) == None:
                 node_to_output_grads_list[node.input[i]] = [input_grads[i]]
