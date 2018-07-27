@@ -5,9 +5,6 @@ import tensorlow as tf
 
 import numpy as np
 
-print(dir(tf.ops))
-exit(0)
-
 sess = tf.Session()
 
 # linear model

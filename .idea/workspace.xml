@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe22548e-43ad-49d2-bbf1-afcc0d49c593" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PPCA-tensorflow.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PPCA-tensorflow.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyTensorFlow/Mytf.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyTensorFlow/Mytf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/add_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assign.py" beforeDir="false" afterPath="$PROJECT_DIR$/assign.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autodiff/autodiff.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodiff/autodiff.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autodiff/autodiff_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/autodiff/autodiff_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mnist_grad.py" beforeDir="false" afterPath="$PROJECT_DIR$/mnist_grad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorlow/Session.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/Session.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,76 +21,147 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$10_cnn_2.coverage" NAME="10_cnn_2 Coverage Results" MODIFIED="1532609818185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/testcase" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$tensorflow_CNN.coverage" NAME="tensorflow-CNN Coverage Results" MODIFIED="1532337434354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1532623550898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$context.coverage" NAME="context Coverage Results" MODIFIED="1532687964246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$init.coverage" NAME="init Coverage Results" MODIFIED="1532687952747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1532696017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$nn.coverage" NAME="nn Coverage Results" MODIFIED="1532623475623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Logistic_Regression.coverage" NAME="Logistic_Regression Coverage Results" MODIFIED="1532151022933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff_test.coverage" NAME="autodiff_test Coverage Results" MODIFIED="1532615007295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff_test.coverage" NAME="autodiff_test Coverage Results" MODIFIED="1532689669861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff.coverage" NAME="autodiff Coverage Results" MODIFIED="1532615006018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$Session__1_.coverage" NAME="Session (1) Coverage Results" MODIFIED="1532680855774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Mytf.coverage" NAME="Mytf Coverage Results" MODIFIED="1532521756761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTensorFlow" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$assign.coverage" NAME="assign Coverage Results" MODIFIED="1532679187351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$assign.coverage" NAME="assign Coverage Results" MODIFIED="1532688218778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$apport_python_hook.coverage" NAME="apport_python_hook Coverage Results" MODIFIED="1532506300058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/lib/python3/dist-packages" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1532678706675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$9_cnn_1.coverage" NAME="9_cnn_1 Coverage Results" MODIFIED="1532418873726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/testcase" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$mnist_grad.coverage" NAME="mnist_grad Coverage Results" MODIFIED="1532443679526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$add_test.coverage" NAME="add_test Coverage Results" MODIFIED="1532355987113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$mnist_grad.coverage" NAME="mnist_grad Coverage Results" MODIFIED="1532714040657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$ops__1_.coverage" NAME="ops (1) Coverage Results" MODIFIED="1532683501050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$add_test.coverage" NAME="add_test Coverage Results" MODIFIED="1532687940153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Session.coverage" NAME="Session Coverage Results" MODIFIED="1532676677312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$session.coverage" NAME="session Coverage Results" MODIFIED="1532342725907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.5/dist-packages/tensorflow/python/client" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$ops.coverage" NAME="ops Coverage Results" MODIFIED="1532677655031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$ops.coverage" NAME="ops Coverage Results" MODIFIED="1532708591690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49595687">
+    <splitter split-orientation="horizontal" split-proportion="0.4409967">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tensorlow/__init__.py">
+          <file leaf-file-name="mnist_grad.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/mnist_grad.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#48#273#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-365">
+                  <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="assign.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assign.py">
+          <file leaf-file-name="5_mnist_grad.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/testcase_2017_git/testcase/5_mnist_grad.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                <state relative-caret-position="210">
+                  <caret line="10" column="27" lean-forward="true" selection-end-line="38" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ops.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ops.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="12">
-                  <caret line="580" column="13" lean-forward="true" selection-start-line="580" selection-start-column="13" selection-end-line="580" selection-end-column="13" />
+                <state relative-caret-position="283">
+                  <caret line="503" column="8" selection-start-line="503" selection-start-column="8" selection-end-line="503" selection-end-column="8" />
                   <folding>
-                    <element signature="e#48#76#0" expanded="true" />
+                    <element signature="n#!!doc" />
+                    <element signature="e#130#1141#0" />
+                    <element signature="e#114#221#0" />
+                    <element signature="e#252#337#0" />
+                    <element signature="e#368#453#0" />
+                    <element signature="e#485#570#0" />
+                    <element signature="e#601#686#0" />
+                    <element signature="e#721#805#0" />
+                    <element signature="e#841#925#0" />
+                    <element signature="e#949#965#0" />
+                    <element signature="e#1030#1046#0" />
+                    <element signature="e#1143#1196#0" />
+                    <element signature="e#1090#1297#0" />
+                    <element signature="e#1112#1168#0" />
+                    <element signature="e#1210#1235#0" />
+                    <element signature="e#1272#1297#0" />
+                    <element signature="e#1326#1636#0" />
+                    <element signature="e#1424#1636#0" />
+                    <element signature="e#1662#2121#0" />
+                    <element signature="e#1748#2121#0" />
+                    <element signature="e#1877#2064#0" />
+                    <element signature="e#2147#2604#0" />
+                    <element signature="e#2220#2604#0" />
+                    <element signature="e#2419#2484#0" />
+                    <element signature="e#2651#2887#0" />
+                    <element signature="e#2673#2778#0" />
+                    <element signature="e#2820#2887#0" />
+                    <element signature="e#2910#3522#0" />
+                    <element signature="e#2959#3151#0" />
+                    <element signature="e#3193#3522#0" />
+                    <element signature="e#3361#3466#0" />
+                    <element signature="e#3581#4037#0" />
+                    <element signature="e#3579#3722#0" />
+                    <element signature="e#3764#3879#0" />
+                    <element signature="e#3954#4037#0" />
+                    <element signature="e#4058#4515#0" />
+                    <element signature="e#4094#4237#0" />
+                    <element signature="e#4279#4394#0" />
+                    <element signature="e#4431#4515#0" />
+                    <element signature="e#4536#4912#0" />
+                    <element signature="e#4565#4687#0" />
+                    <element signature="e#4729#4829#0" />
+                    <element signature="e#4866#4912#0" />
+                    <element signature="e#5117#5635#0" />
+                    <element signature="e#4969#5114#0" />
+                    <element signature="e#5656#6170#0" />
+                    <element signature="e#6194#6991#0" />
+                    <element signature="e#7012#7385#0" />
+                    <element signature="e#7470#7838#0" />
+                    <element signature="e#7800#8237#0" />
+                    <element signature="e#8258#8839#0" />
+                    <element signature="e#8747#9109#0" />
+                    <element signature="e#8776#8906#0" />
+                    <element signature="e#8933#9035#0" />
+                    <element signature="e#9076#9109#0" />
+                    <element signature="e#9135#9495#0" />
+                    <element signature="e#9164#9293#0" />
+                    <element signature="e#9320#9421#0" />
+                    <element signature="e#9462#9495#0" />
+                    <element signature="e#9529#10402#0" />
+                    <element signature="e#10339#10402#0" />
+                    <element signature="e#10433#11343#0" />
+                    <element signature="e#11276#11343#0" />
+                    <element signature="e#11743#12570#0" />
+                    <element signature="e#12152#13057#0" />
+                    <element signature="e#13082#13976#0" />
+                    <element signature="e#13912#13976#0" />
+                    <element signature="e#14000#14402#0" />
+                    <element signature="e#14036#14186#0" />
+                    <element signature="e#14312#14410#0" />
+                    <element signature="e#14343#14402#0" />
+                    <element signature="e#14511#15068#0" />
+                    <element signature="e#14485#14692#0" />
+                    <element signature="e#14840#14971#0" />
+                    <element signature="e#14895#14955#0" />
+                    <element signature="e#14981#15445#0" />
+                    <element signature="e#15024#15179#0" />
+                    <element signature="e#15221#15347#0" />
+                    <element signature="e#15384#15445#0" />
+                    <element signature="e#15515#15953#0" />
+                    <element signature="e#15536#15691#0" />
+                    <element signature="e#15761#15857#0" />
+                    <element signature="e#15896#15957#0" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Session.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Session.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-737">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#48#75#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="181">
+                  <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -97,8 +169,8 @@
           <file leaf-file-name="autodiff.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="378" column="25" selection-start-line="312" selection-start-column="4" selection-end-line="378" selection-end-column="25" />
+                <state relative-caret-position="4451">
+                  <caret line="365" column="24" selection-start-line="365" selection-start-column="24" selection-end-line="365" selection-end-column="24" />
                   <folding>
                     <element signature="e#5143#7606#0" />
                   </folding>
@@ -109,21 +181,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="autodiff_test.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
+        <leaf>
+          <file leaf-file-name="nn.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8">
-                  <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#0#21#0" expanded="true" />
-                    <element signature="e#80#340#0" />
-                    <element signature="e#104#325#0" />
-                    <element signature="e#773#1130#0" />
-                    <element signature="e#1179#1540#0" />
-                    <element signature="e#1584#2118#0" />
-                    <element signature="e#2162#2671#0" />
-                  </folding>
+                <state relative-caret-position="-645">
+                  <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -136,15 +199,14 @@
     <findStrings>
       <find>TODO</find>
       <find>TODO:</find>
-      <find>&quot;&quot;&quot;TODO: Your code here1&quot;&quot;&quot;</find>
-      <find>print(&quot;    \033[1;32mPassed\033[0m!&quot;)</find>
+      <find />
+      <find />
       <find>self</find>
       <find>ndarr</find>
       <find>int</find>
       <find>inputs</find>
       <find>reduce</find>
       <find>tf.</find>
-      <find>float64</find>
       <find>Graidents</find>
       <find>newNode.op</find>
       <find>cast</find>
@@ -156,6 +218,12 @@
       <find>reshape</find>
       <find>&quot;Node</find>
       <find />
+      <find />
+      <find>negop</find>
+      <find>Assign</find>
+      <find>reduce_sh</find>
+      <find>float64</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>newNode</replace>
@@ -165,6 +233,7 @@
       <replace>value</replace>
       <replace>&quot;\033[1;31mNode</replace>
       <replace>\t</replace>
+      <replace>resr</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -177,14 +246,10 @@
         <option value="$PROJECT_DIR$/MyTensorFlow/1_adder.py" />
         <option value="$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py" />
         <option value="$PROJECT_DIR$/MyTensorFlow/__init__.py" />
-        <option value="$PROJECT_DIR$/add_test.py" />
-        <option value="$PROJECT_DIR$/init.py" />
         <option value="$PROJECT_DIR$/testcase/testcase/10_cnn_2.py" />
         <option value="$PROJECT_DIR$/testcase/testcase/9_cnn_1.py" />
-        <option value="$PROJECT_DIR$/mnist_grad.py" />
         <option value="$PROJECT_DIR$/MyTensorFlow/Mytf.py" />
         <option value="$PROJECT_DIR$/autodiff/autodiff_test.py" />
-        <option value="$PROJECT_DIR$/autodiff/autodiff.py" />
         <option value="$PROJECT_DIR$/Tensorlow/train.py" />
         <option value="$PROJECT_DIR$/Tensorlow/Mytf.py" />
         <option value="$PROJECT_DIR$/Tensorlow/__init__.py" />
@@ -192,14 +257,19 @@
         <option value="$PROJECT_DIR$/Tensorlow/base.py" />
         <option value="$PROJECT_DIR$/Tensorlow/ops.py" />
         <option value="$PROJECT_DIR$/Tensorlow/Session.py" />
-        <option value="$PROJECT_DIR$/tensorlow/Session.py" />
-        <option value="$PROJECT_DIR$/tensorlow/nn.py" />
         <option value="$PROJECT_DIR$/tensorlow/base.py" />
-        <option value="$PROJECT_DIR$/tensorlow/topo.py" />
-        <option value="$PROJECT_DIR$/tensorlow/ops.py" />
+        <option value="$PROJECT_DIR$/tensorlow/nn.py" />
         <option value="$PROJECT_DIR$/tensorlow/train.py" />
+        <option value="$PROJECT_DIR$/add_test.py" />
+        <option value="$PROJECT_DIR$/init.py" />
+        <option value="$PROJECT_DIR$/context.py" />
         <option value="$PROJECT_DIR$/assign.py" />
+        <option value="$PROJECT_DIR$/autodiff/autodiff.py" />
+        <option value="$PROJECT_DIR$/tensorlow/topo.py" />
         <option value="$PROJECT_DIR$/tensorlow/__init__.py" />
+        <option value="$PROJECT_DIR$/tensorlow/Session.py" />
+        <option value="$PROJECT_DIR$/mnist_grad.py" />
+        <option value="$PROJECT_DIR$/tensorlow/ops.py" />
       </list>
     </option>
   </component>
@@ -212,11 +282,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="412" />
-    <option name="y" value="1104" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="509" />
+    <option name="y" value="91" />
+    <option name="width" value="2127" />
+    <option name="height" value="994" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -258,27 +328,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.assign">
-    <configuration name="Session" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorlow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorlow/Session.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.mnist_grad">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,25 +343,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorlow/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorlow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorlow/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,6 +367,44 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="autodiff_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/autodiff" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autodiff/autodiff_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mnist_grad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mnist_grad.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="ops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -343,31 +413,31 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tensorlow" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorlow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tensorlow/ops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorlow/ops.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.ops" />
-      <item itemvalue="Python.__init__" />
-      <item itemvalue="Python.Session" />
       <item itemvalue="Python.assign" />
-      <item itemvalue="Python.__init__ (1)" />
+      <item itemvalue="Python.mnist_grad" />
+      <item itemvalue="Python.ops" />
+      <item itemvalue="Python.autodiff_test" />
+      <item itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.assign" />
-        <item itemvalue="Python.__init__ (1)" />
+        <item itemvalue="Python.mnist_grad" />
         <item itemvalue="Python.ops" />
-        <item itemvalue="Python.Session" />
         <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.autodiff_test" />
+        <item itemvalue="Python.assign" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532492974554</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="re-construct">
+      <created>1532680366341</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1532680366341</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -444,7 +521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="412" y="1104" width="1855" height="1056" extended-state="4" />
+    <frame x="509" y="91" width="2127" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21235955" />
@@ -452,7 +529,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49967343" visible="true" weight="0.28858352" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49967343" visible="true" weight="0.34049773" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.16927224" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -460,7 +537,7 @@
       <window_info anchor="right" id="SciView" order="3" weight="0.32991913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919137" weight="0.39819005" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49919137" weight="0.35972852" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959569" />
       <window_info anchor="right" id="Coverage" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,7 +564,8 @@
     <MESSAGE value="add EXP and LOG" />
     <MESSAGE value="backup" />
     <MESSAGE value="problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="problems" />
+    <MESSAGE value="re-construct" />
+    <option name="LAST_COMMIT_MESSAGE" value="re-construct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,11 +574,6 @@
           <url>file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py</url>
           <line>903</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mnist_grad.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MyTensorFlow/Mytf.py</url>
@@ -530,7 +603,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="65" />
+      <option name="time" value="101" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -543,34 +616,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -632,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autodiff/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNN &amp; LR/tensorflow-CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
@@ -660,24 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/testcase/9_cnn_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -730,23 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mnist_grad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#31#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CNN &amp; LR/Logistic_Regression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/Mytf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -777,13 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="35">
           <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/testcase/8_adam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -996,10 +996,220 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/context.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <folding>
+            <element signature="e#31#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/Mytf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188">
+          <caret line="155" column="22" lean-forward="true" selection-start-line="155" selection-start-column="22" selection-end-line="155" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#398#2122#0" />
+            <element signature="e#477#541#0" />
+            <element signature="e#567#578#0" />
+            <element signature="e#630#697#0" />
+            <element signature="e#647#697#0" />
+            <element signature="e#753#1133#0" />
+            <element signature="e#860#1105#0" />
+            <element signature="e#948#1056#0" />
+            <element signature="e#1230#2122#0" />
+            <element signature="e#1247#1695#0" />
+            <element signature="e#1282#1695#0" />
+            <element signature="e#1366#1551#0" />
+            <element signature="e#1488#1551#0" />
+            <element signature="e#1741#1835#0" />
+            <element signature="e#1873#1967#0" />
+            <element signature="e#2050#2106#0" />
+            <element signature="e#2169#2307#0" />
+            <element signature="e#2338#2441#0" />
+            <element signature="e#2472#2575#0" />
+            <element signature="e#2606#2709#0" />
+            <element signature="e#2741#2856#0" />
+            <element signature="e#2880#2916#0" />
+            <element signature="e#2951#3054#0" />
+            <element signature="e#3090#3205#0" />
+            <element signature="e#3270#3286#0" />
+            <element signature="e#3330#3544#0" />
+            <element signature="e#3352#3408#0" />
+            <element signature="e#3450#3475#0" />
+            <element signature="e#3519#3544#0" />
+            <element signature="e#3573#3895#0" />
+            <element signature="e#3670#3840#0" />
+            <element signature="e#3884#3895#0" />
+            <element signature="e#3921#4488#0" />
+            <element signature="e#4197#4488#0" />
+            <element signature="e#4514#5040#0" />
+            <element signature="e#4634#5040#0" />
+            <element signature="e#4841#4911#0" />
+            <element signature="e#5063#5816#0" />
+            <element signature="e#5181#5412#0" />
+            <element signature="e#5454#5816#0" />
+            <element signature="e#5837#6201#0" />
+            <element signature="e#5873#6016#0" />
+            <element signature="e#6058#6124#0" />
+            <element signature="e#6168#6201#0" />
+            <element signature="e#6235#6654#0" />
+            <element signature="e#6275#6480#0" />
+            <element signature="e#6522#6590#0" />
+            <element signature="e#6634#6654#0" />
+            <element signature="e#6675#7285#0" />
+            <element signature="e#6726#6969#0" />
+            <element signature="e#7011#7143#0" />
+            <element signature="e#7187#7285#0" />
+            <element signature="e#7319#7976#0" />
+            <element signature="e#7374#7683#0" />
+            <element signature="e#7725#7861#0" />
+            <element signature="e#7905#7976#0" />
+            <element signature="e#7997#8739#0" />
+            <element signature="e#8048#8291#0" />
+            <element signature="e#8333#8465#0" />
+            <element signature="e#8509#8739#0" />
+            <element signature="e#8773#9498#0" />
+            <element signature="e#8828#9137#0" />
+            <element signature="e#9179#9315#0" />
+            <element signature="e#9359#9498#0" />
+            <element signature="e#9520#9968#0" />
+            <element signature="e#9556#9701#0" />
+            <element signature="e#9743#9859#0" />
+            <element signature="e#9903#9968#0" />
+            <element signature="e#10002#10441#0" />
+            <element signature="e#10042#10249#0" />
+            <element signature="e#10291#10359#0" />
+            <element signature="e#10403#10441#0" />
+            <element signature="e#10462#10803#0" />
+            <element signature="e#10491#10615#0" />
+            <element signature="e#10657#10715#0" />
+            <element signature="e#10759#10803#0" />
+            <element signature="e#10824#11161#0" />
+            <element signature="e#10853#10977#0" />
+            <element signature="e#11019#11077#0" />
+            <element signature="e#11121#11161#0" />
+            <element signature="e#11186#12579#0" />
+            <element signature="e#11256#11523#0" />
+            <element signature="e#11565#11949#0" />
+            <element signature="e#11627#11776#0" />
+            <element signature="e#11788#11933#0" />
+            <element signature="e#11993#12579#0" />
+            <element signature="e#12025#12297#0" />
+            <element signature="e#12058#12171#0" />
+            <element signature="e#12065#12171#0" />
+            <element signature="e#12185#12297#0" />
+            <element signature="e#12192#12297#0" />
+            <element signature="e#12309#12579#0" />
+            <element signature="e#12342#12454#0" />
+            <element signature="e#12349#12454#0" />
+            <element signature="e#12468#12579#0" />
+            <element signature="e#12475#12579#0" />
+            <element signature="e#12608#13477#0" />
+            <element signature="e#12655#12877#0" />
+            <element signature="e#12919#13413#0" />
+            <element signature="e#13087#13397#0" />
+            <element signature="e#13110#13277#0" />
+            <element signature="e#13457#13477#0" />
+            <element signature="e#13507#14476#0" />
+            <element signature="e#13554#13827#0" />
+            <element signature="e#13869#14412#0" />
+            <element signature="e#14053#14396#0" />
+            <element signature="e#14076#14230#0" />
+            <element signature="e#14456#14476#0" />
+            <element signature="e#14505#15266#0" />
+            <element signature="e#14648#14946#0" />
+            <element signature="e#14988#15170#0" />
+            <element signature="e#15214#15266#0" />
+            <element signature="e#15296#16059#0" />
+            <element signature="e#15439#15737#0" />
+            <element signature="e#15779#15963#0" />
+            <element signature="e#16007#16059#0" />
+            <element signature="e#16086#16451#0" />
+            <element signature="e#16115#16245#0" />
+            <element signature="e#16287#16371#0" />
+            <element signature="e#16415#16451#0" />
+            <element signature="e#16477#16840#0" />
+            <element signature="e#16506#16635#0" />
+            <element signature="e#16677#16760#0" />
+            <element signature="e#16804#16840#0" />
+            <element signature="e#16912#17651#0" />
+            <element signature="e#17141#17557#0" />
+            <element signature="e#17357#17557#0" />
+            <element signature="e#17698#17921#0" />
+            <element signature="e#17720#17776#0" />
+            <element signature="e#17818#17921#0" />
+            <element signature="e#17860#17921#0" />
+            <element signature="e#17937#18050#0" />
+            <element signature="e#17964#18050#0" />
+            <element signature="e#18097#18125#0" />
+            <element signature="e#18172#18201#0" />
+            <element signature="e#18236#18354#0" />
+            <element signature="e#18403#18537#0" />
+            <element signature="e#18570#18655#0" />
+            <element signature="e#19291#20473#0" />
+            <element signature="e#19945#20473#0" />
+            <element signature="e#20477#20487#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autodiff/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="27" lean-forward="true" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/topo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
+        <state relative-caret-position="545">
+          <caret line="226" column="25" selection-start-line="226" selection-start-column="25" selection-end-line="226" selection-end-column="25" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
             <element signature="e#80#340#0" />
@@ -1012,85 +1222,206 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/testcase/8_adam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#/home/sjtu-ypm/PPCA-tensorflow/tensorlow/ops.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/home/sjtu-ypm/PPCA-tensorflow/tensorlow/ops.py</OriginalElement>
+          <nodes>
+            <node x="" y="">ops.Gradients</node>
+            <node x="" y="">ops.Reduce_Shape_ToOp</node>
+            <node x="" y="">ops.OnesLikeOp</node>
+            <node x="" y="">ops.ZerosLikeOp</node>
+            <node x="" y="">ops.Expand_SumOp</node>
+            <node x="" y="">ops.SqrtOp</node>
+            <node x="" y="">ops.Global_Variables_InitializerOp</node>
+            <node x="" y="">ops.CastOp</node>
+            <node x="" y="">ops.Expand_MeanOp</node>
+            <node x="" y="">ops.ReshapeOp</node>
+            <node x="" y="">ops.Node</node>
+            <node x="" y="">ops.MatmulOp</node>
+            <node x="" y="">ops.Reduce_MeanOp</node>
+            <node x="" y="">ops.Op</node>
+            <node x="" y="">ops.VariableOp</node>
+            <node x="" y="">object</node>
+            <node x="" y="">ops.PowOp</node>
+            <node x="" y="">ops.SubOp</node>
+            <node x="" y="">ops.NegOp</node>
+            <node x="" y="">ops.ExpOp</node>
+            <node x="" y="">ops.DivOp</node>
+            <node x="" y="">ops.LogOp</node>
+            <node x="" y="">ops.MulOp</node>
+            <node x="" y="">ops.AddOp</node>
+            <node x="" y="">ops.EqualOp</node>
+            <node x="" y="">ops.PlaceHolderOp</node>
+            <node x="" y="">ops.ArgmaxOp</node>
+            <node x="" y="">ops.Reduce_SumOp</node>
+            <node x="" y="">ops.ConstantOp</node>
+            <node x="" y="">ops.AssignOp</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2747909199522103" x="2082.5" y="156.5" />
+          <SelectedNodes />
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CNN &amp; LR/Logistic_Regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-127">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/autodiff/autodiff.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="378" column="25" selection-start-line="312" selection-start-column="4" selection-end-line="378" selection-end-column="25" />
+        <state relative-caret-position="4451">
+          <caret line="365" column="24" selection-start-line="365" selection-start-column="24" selection-end-line="365" selection-end-column="24" />
           <folding>
             <element signature="e#5143#7606#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
+    <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/topo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="181">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="-645">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/add_test.py">
+    <entry file="file://$PROJECT_DIR$/testcase_2017_git/testcase/5_mnist_grad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="210">
+          <caret line="10" column="27" lean-forward="true" selection-end-line="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assign.py">
+    <entry file="file://$PROJECT_DIR$/mnist_grad.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#48#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding>
-            <element signature="e#48#75#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-365">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="580" column="13" lean-forward="true" selection-start-line="580" selection-start-column="13" selection-end-line="580" selection-end-column="13" />
+        <state relative-caret-position="283">
+          <caret line="503" column="8" selection-start-line="503" selection-start-column="8" selection-end-line="503" selection-end-column="8" />
           <folding>
-            <element signature="e#48#76#0" expanded="true" />
+            <element signature="n#!!doc" />
+            <element signature="e#130#1141#0" />
+            <element signature="e#114#221#0" />
+            <element signature="e#252#337#0" />
+            <element signature="e#368#453#0" />
+            <element signature="e#485#570#0" />
+            <element signature="e#601#686#0" />
+            <element signature="e#721#805#0" />
+            <element signature="e#841#925#0" />
+            <element signature="e#949#965#0" />
+            <element signature="e#1030#1046#0" />
+            <element signature="e#1143#1196#0" />
+            <element signature="e#1090#1297#0" />
+            <element signature="e#1112#1168#0" />
+            <element signature="e#1210#1235#0" />
+            <element signature="e#1272#1297#0" />
+            <element signature="e#1326#1636#0" />
+            <element signature="e#1424#1636#0" />
+            <element signature="e#1662#2121#0" />
+            <element signature="e#1748#2121#0" />
+            <element signature="e#1877#2064#0" />
+            <element signature="e#2147#2604#0" />
+            <element signature="e#2220#2604#0" />
+            <element signature="e#2419#2484#0" />
+            <element signature="e#2651#2887#0" />
+            <element signature="e#2673#2778#0" />
+            <element signature="e#2820#2887#0" />
+            <element signature="e#2910#3522#0" />
+            <element signature="e#2959#3151#0" />
+            <element signature="e#3193#3522#0" />
+            <element signature="e#3361#3466#0" />
+            <element signature="e#3581#4037#0" />
+            <element signature="e#3579#3722#0" />
+            <element signature="e#3764#3879#0" />
+            <element signature="e#3954#4037#0" />
+            <element signature="e#4058#4515#0" />
+            <element signature="e#4094#4237#0" />
+            <element signature="e#4279#4394#0" />
+            <element signature="e#4431#4515#0" />
+            <element signature="e#4536#4912#0" />
+            <element signature="e#4565#4687#0" />
+            <element signature="e#4729#4829#0" />
+            <element signature="e#4866#4912#0" />
+            <element signature="e#5117#5635#0" />
+            <element signature="e#4969#5114#0" />
+            <element signature="e#5656#6170#0" />
+            <element signature="e#6194#6991#0" />
+            <element signature="e#7012#7385#0" />
+            <element signature="e#7470#7838#0" />
+            <element signature="e#7800#8237#0" />
+            <element signature="e#8258#8839#0" />
+            <element signature="e#8747#9109#0" />
+            <element signature="e#8776#8906#0" />
+            <element signature="e#8933#9035#0" />
+            <element signature="e#9076#9109#0" />
+            <element signature="e#9135#9495#0" />
+            <element signature="e#9164#9293#0" />
+            <element signature="e#9320#9421#0" />
+            <element signature="e#9462#9495#0" />
+            <element signature="e#9529#10402#0" />
+            <element signature="e#10339#10402#0" />
+            <element signature="e#10433#11343#0" />
+            <element signature="e#11276#11343#0" />
+            <element signature="e#11743#12570#0" />
+            <element signature="e#12152#13057#0" />
+            <element signature="e#13082#13976#0" />
+            <element signature="e#13912#13976#0" />
+            <element signature="e#14000#14402#0" />
+            <element signature="e#14036#14186#0" />
+            <element signature="e#14312#14410#0" />
+            <element signature="e#14343#14402#0" />
+            <element signature="e#14511#15068#0" />
+            <element signature="e#14485#14692#0" />
+            <element signature="e#14840#14971#0" />
+            <element signature="e#14895#14955#0" />
+            <element signature="e#14981#15445#0" />
+            <element signature="e#15024#15179#0" />
+            <element signature="e#15221#15347#0" />
+            <element signature="e#15384#15445#0" />
+            <element signature="e#15515#15953#0" />
+            <element signature="e#15536#15691#0" />
+            <element signature="e#15761#15857#0" />
+            <element signature="e#15896#15957#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-737">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 """ import your model here """
-import tensorflow as tf
+import tensorlow as tf
 
 import numpy as np
 
@@ -8,7 +8,7 @@ sess = tf.Session()
 # adder
 a = tf.placeholder(tf.int64)
 b = tf.placeholder(tf.int64)
-adder_node = a + b;
+adder_node = a + b
 
 ans = sess.run(adder_node, {a: 3, b: 4})
 print(ans)

@@ -350,11 +350,11 @@ def gradients(output_node, node_list):
     """
 
     # a map from node to a list of gradient contributions from each output node
-    node_to_output_grads_list = {}
+    node_to_output_grads_list = dict()
     # Special note on initializing gradient of output_node as oneslike_op(output_node):
     # We are really taking a derivative of the scalar reduce_sum(output_node)
     # instead of the vector output_node. But this is the common case for loss function.
-    node_to_output_grads_list[output_node] = [oneslike_op(output_node)]
+    #node_to_output_grads_list[output_node] = [oneslike_op(output_node)]
     # a map from node to the gradient of that node
     node_to_output_grad = {}
     # Traverse graph in reverse topological order given the output_node that we are taking gradient wrt.
@@ -362,8 +362,9 @@ def gradients(output_node, node_list):
 
     #TODO: Your code here
     for node in reverse_topo_order:
-        grad = sum_node_list(node_to_output_grads_list[node])
-
+        grad = sum_node_list(node_to_output_grads_list.get(node))
+        if grad == None:
+            grad = oneslike_op(node)
         node_to_output_grad[node] = grad
         if isinstance(node.op, PlaceholderOp):
             continue
@@ -383,14 +384,7 @@ def gradients(output_node, node_list):
 ##############################
 
 def find_topo_sort(node_list):
-    """Given a list of nodes, return a topological sort list of nodes ending in them.
-    
-    A simple algorithm is to do a post-order DFS traversal on the given nodes, 
-    going backwards based on input edges. Since a node is added to the ordering
-    after all its predecessors are traversed due to post-order DFS, we get a topological
-    sort.
 
-    """
     visited = set()
     topo_order = []
     for node in node_list:
@@ -408,6 +402,8 @@ def topo_sort_dfs(node, visited, topo_order):
 
 def sum_node_list(node_list):
     """Custom sum function in order to avoid create redundant nodes in Python sum implementation."""
+    if node_list == None:
+        return None
     from operator import add
     from functools import reduce
     return reduce(add, node_list)

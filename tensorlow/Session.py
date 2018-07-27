@@ -15,22 +15,22 @@ class Session:
 		return default_session
 
 	def __exit__(self, exc_type, exc_val, exc_tb):
-		if(exc_type):
+		if exc_type :
 			print(exc_type)
 			print(exc_val)
 			print(exc_tb)
 
 	@staticmethod
-	def _run(self, output, node_value):
+	def _run(output, node_value):
 		topo_order = find_topo_sort(output)
 		for node in topo_order:
-			if node in node_value:
+			if isinstance(node.op, PlaceHolderOp):
 				continue
 			val = []
-			for input in node.input:
-				val.append(node_value[input])
+			for inputs in node.input:
+				val.append(node_value[inputs])
 			node_value[node] = node.op.compute(node, val)
-		return [node_value[node] for node in self.eval_node_list]
+		return [node_value[node] for node in output]
 
 	def run(self, fetches, feed_dict = None):
 		if feed_dict:
@@ -54,15 +54,6 @@ class Session:
 				placeholder.value_list[i] = None
 
 		return result
-
-
-
-class Node:
-
-	def run(self):
-		default_session.run(self)
-
-	eval = run
 
 
 
