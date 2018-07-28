@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe22548e-43ad-49d2-bbf1-afcc0d49c593" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assign.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/context.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnist_grad.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorlow/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase_2017_git" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_2017_git" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,27 +41,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nn.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-              <folding>
-                <element signature="e#101#414#0" />
-                <element signature="e#465#810#0" />
-                <element signature="e#946#1355#0" />
-                <element signature="e#1438#1846#0" />
-                <element signature="e#2353#2511#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            <state relative-caret-position="174">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -73,9 +53,10 @@
       <file leaf-file-name="ops.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="584" column="5" lean-forward="true" selection-start-line="584" selection-start-column="5" selection-end-line="584" selection-end-column="5" />
+            <state relative-caret-position="463">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
               <folding>
+                <element signature="n#!!doc" />
                 <element signature="e#130#1247#0" />
                 <element signature="e#152#259#0" />
                 <element signature="e#290#375#0" />
@@ -101,10 +82,7 @@
                 <element signature="e#2817#3053#0" />
                 <element signature="e#2839#2944#0" />
                 <element signature="e#2986#3053#0" />
-                <element signature="e#3078#3744#0" />
                 <element signature="e#3127#3373#0" />
-                <element signature="e#3415#3744#0" />
-                <element signature="e#3583#3688#0" />
                 <element signature="e#3765#4221#0" />
                 <element signature="e#3801#3944#0" />
                 <element signature="e#3986#4101#0" />
@@ -191,28 +169,45 @@
                 <element signature="e#16485#16936#0" />
                 <element signature="e#16744#16936#0" />
                 <element signature="e#16988#17114#0" />
+                <element signature="e#17496#17756#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
+      <file leaf-file-name="nn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="419">
+              <caret line="81" column="12" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
               <folding>
-                <element signature="e#115#703#0" />
+                <element signature="e#101#414#0" />
+                <element signature="e#465#810#0" />
+                <element signature="e#946#1355#0" />
+                <element signature="e#1438#1846#0" />
+                <element signature="e#2353#2511#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7_ml_perceptron.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7_ml_perceptron.py">
+      <file leaf-file-name="Session.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1233">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="-498">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -221,7 +216,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>TODO</find>
       <find>TODO:</find>
       <find>&quot;&quot;&quot;TODO: Your code here1&quot;&quot;&quot;</find>
       <find>print(&quot;    \033[1;32mPassed\033[0m!&quot;)</find>
@@ -249,8 +243,9 @@
       <find>float64</find>
       <find>reduce_shape_to(resr, node.input[1])</find>
       <find />
-      <find>#name</find>
       <find>reul</find>
+      <find>#name</find>
+      <find>assign</find>
     </findStrings>
     <replaceStrings>
       <replace>newNode</replace>
@@ -260,8 +255,8 @@
       <replace>value</replace>
       <replace>&quot;\033[1;31mNode</replace>
       <replace>resr</replace>
-      <replace>\t</replace>
       <replace>relu</replace>
+      <replace>\t</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -298,8 +293,9 @@
         <option value="$PROJECT_DIR$/6_mnist_optimizer.py" />
         <option value="$PROJECT_DIR$/init.py" />
         <option value="$PROJECT_DIR$/tensorlow/nn.py" />
-        <option value="$PROJECT_DIR$/tensorlow/ops.py" />
         <option value="$PROJECT_DIR$/7_ml_perceptron.py" />
+        <option value="$PROJECT_DIR$/run_test.py" />
+        <option value="$PROJECT_DIR$/tensorlow/ops.py" />
         <option value="$PROJECT_DIR$/tensorlow/train.py" />
       </list>
     </option>
@@ -314,8 +310,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="488" />
-    <option name="y" value="38" />
+    <option name="x" value="479" />
+    <option name="y" value="166" />
     <option name="width" value="1663" />
     <option name="height" value="994" />
   </component>
@@ -546,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532714109257</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="pass test 7">
+      <created>1532778645154</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1532778645155</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -559,7 +562,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="488" y="38" width="1663" height="994" extended-state="0" />
+    <frame x="479" y="166" width="1663" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.21235955" />
@@ -604,7 +607,8 @@
     <MESSAGE value="problems" />
     <MESSAGE value="re-construct" />
     <MESSAGE value="pass 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="pass 5" />
+    <MESSAGE value="pass test 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="pass test 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -642,7 +646,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="107" />
+      <option name="time" value="108" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -655,13 +659,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-1247971764/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="245" column="14" selection-start-line="245" selection-start-column="4" selection-end-line="245" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/1_adder.py" />
     <entry file="file://$PROJECT_DIR$/MyTensorFlow/cumpute.py" />
     <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/python/client/session.py">
@@ -932,11 +929,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/7_ml_perceptron.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1233">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-498">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="81" column="12" lean-forward="true" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+          <folding>
+            <element signature="e#101#414#0" />
+            <element signature="e#465#810#0" />
+            <element signature="e#946#1355#0" />
+            <element signature="e#1438#1846#0" />
+            <element signature="e#2353#2511#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="584" column="5" lean-forward="true" selection-start-line="584" selection-start-column="5" selection-end-line="584" selection-end-column="5" />
+        <state relative-caret-position="463">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
           <folding>
+            <element signature="n#!!doc" />
             <element signature="e#130#1247#0" />
             <element signature="e#152#259#0" />
             <element signature="e#290#375#0" />
@@ -962,10 +998,7 @@
             <element signature="e#2817#3053#0" />
             <element signature="e#2839#2944#0" />
             <element signature="e#2986#3053#0" />
-            <element signature="e#3078#3744#0" />
             <element signature="e#3127#3373#0" />
-            <element signature="e#3415#3744#0" />
-            <element signature="e#3583#3688#0" />
             <element signature="e#3765#4221#0" />
             <element signature="e#3801#3944#0" />
             <element signature="e#3986#4101#0" />
@@ -1052,45 +1085,15 @@
             <element signature="e#16485#16936#0" />
             <element signature="e#16744#16936#0" />
             <element signature="e#16988#17114#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/7_ml_perceptron.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1233">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="85" column="13" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
-          <folding>
-            <element signature="e#101#414#0" />
-            <element signature="e#465#810#0" />
-            <element signature="e#946#1355#0" />
-            <element signature="e#1438#1846#0" />
-            <element signature="e#2353#2511#0" />
+            <element signature="e#17496#17756#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="e#115#703#0" />
-          </folding>
+        <state relative-caret-position="174">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
         </state>
       </provider>
     </entry>
