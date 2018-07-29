@@ -634,17 +634,6 @@ class Gradients:
 		return grad_node_list
 
 
-class UnionOp(Op):
-	def __call__(self, nodes, name="union"):
-		assert type(nodes) == list
-		new_node = Node()
-		new_node.op = self
-		new_node.input = nodes
-		return new_node
-
-	def compute(self, node, input_vals):
-		return None
-
 
 add = AddOp()
 sub = SubOp()
@@ -656,7 +645,6 @@ expand_mean = Expand_MeanOp()
 expand_sum = Expand_SumOp()
 oneslike = OnesLikeOp()
 zeroslike = ZerosLikeOp()
-union = UnionOp()
 
 placeholder = PlaceHolderOp()
 Variable = VariableOp()
