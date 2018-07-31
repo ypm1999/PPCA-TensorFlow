@@ -16,7 +16,7 @@ class Node(object):
 		self.name = ""
 
 	def __add__(self, other):
-		if  not isinstance(other, Node):
+		if not isinstance(other, Node):
 			other = constant(other)
 		return add(self, other)
 
@@ -88,7 +88,7 @@ class PlaceHolderOp(Op):
 		new_node.name = name
 		new_node.op = self
 		self.placeholder_list.append(new_node)
-		placeholder.value_list[new_node] = None
+		self.value_list[new_node] = None
 		return new_node
 
 
@@ -107,7 +107,7 @@ class VariableOp(Op):
 				new_node.value = dtype(initial_value)
 			new_node.shape = new_node.value.shape
 
-		Variable.node_list.append(new_node)
+		self.node_list.append(new_node)
 		return new_node
 
 
@@ -121,7 +121,7 @@ class ConstantOp(Op):
 			new_node.value = dtype(value)
 
 		if shape:
-			np.reshape(new_node.value.shape, shape)
+			new_node.value = new_node.value + zeros(shape)
 			new_node.shape = shape
 		else:
 			new_node.shape = new_node.value.shape
@@ -140,7 +140,11 @@ class Global_Variables_InitializerOp(Op):
 
 	def compute(self, node, input_vals):
 		for i in Variable.node_list:
-			placeholder.value_list[i] = i.value
+			if type(i.value) != type(None):
+				placeholder.value_list[i] = i.value
+			else:
+				placeholder.value_list[i] = i.input[0].run()
+		return None
 
 
 class AssignOp(Op):
@@ -230,6 +234,11 @@ class MulOp(Op):
 
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 2, "\033[1;31mNode number not suit at mul!\033[0m"
+		# mx = np.max(input_vals)
+		# if mx > 1e20:
+		# 	print(node)
+		# 	print(input_vals)
+
 		return input_vals[0] * input_vals[1]
 
 	def gradient(self, node, grad):
@@ -574,7 +583,24 @@ class ReshapeOp(Op):
 		return np.reshape(input_vals[0], node.shape)
 
 	def gradient(self, node, grad):
-		assert False, "\033[1;31mReshape don't have gradient!\033[0m"
+		return [reshape_to(grad, node.input[0])]
+
+
+class Reshape_ToOp(Op):
+
+	def __call__(self, node1, node2):
+		new_node = Node()
+		new_node.op = self
+		new_node.input = [node1, node2]
+		new_node.name = "reshape_to(%s,%s)" % (node1.name, node2.name)
+		return new_node
+
+	def compute(self, node, input_vals):
+		assert len(input_vals) == 2, "\033[1;31mNode number not suit at reshape_to!\033[0m"
+		return np.reshape(input_vals[0], np.shape(input_vals[1]))
+
+	def gradient(self, node, grad):
+		return reshape_to(grad, node.input[0])
 
 
 class CastOp(Op):
@@ -611,11 +637,10 @@ class Gradients:
 
 		for node in reverse_topo_order:
 			grad = sum_node_list(node_to_output_grads_list.get(node))
-			assert grad != None
-
 			node_to_output_grad[node] = grad
 			if isinstance(node.op, PlaceHolderOp):
 				continue
+			assert grad != None
 			input_grads = node.op.gradient(node, grad)
 			for i in range(len(node.input)):
 				if node_to_output_grads_list.get(node.input[i]):
@@ -645,6 +670,7 @@ expand_mean = Expand_MeanOp()
 expand_sum = Expand_SumOp()
 oneslike = OnesLikeOp()
 zeroslike = ZerosLikeOp()
+reshape_to = Reshape_ToOp()
 
 placeholder = PlaceHolderOp()
 Variable = VariableOp()
@@ -662,5 +688,5 @@ cast = CastOp()
 matmul = MatmulOp()
 exp = ExpOp()
 log = LogOp()
-sqrt = SqrtOp()
-pow = PowOp()
+# sqrt = SqrtOp()
+# pow = PowOp()

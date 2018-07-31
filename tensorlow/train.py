@@ -34,12 +34,12 @@ class AdamOptimizer(Op):
 	#TODO
 	def __init__(self, learning_rate = 0.001, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-08):
 		self.learning_rate = learning_rate
-		self.beta1 = beta1
-		self.beta2 = beta2
+		self.beta1 = float128(beta1)
+		self.beta2 = float128(beta2)
 		self.epsilon = epsilon
 
 
-	def minimize(self, loss, global_step=None, var_list=None):
+	def minimize(self, loss, var_list=None):
 		new_node = Node()
 		new_node.op = self
 		if not var_list:
@@ -61,10 +61,15 @@ class AdamOptimizer(Op):
 		node.t = node.t + 1
 		node.m = node.m * node.b1 + (1 - node.b1) * grad
 		node.v = node.v * node.b2 + (1 - node.b2) * np.square(grad)
-		m = node.m / (1 - np.power(node.b1, node.t))
-		v = node.v / (1 - np.power(node.b2, node.t))
+		# m = node.m / (1 - np.power(node.b1, node.t))
+		# v = node.v / (1 - np.power(node.b2, node.t))
+		tmp = node.rate * np.sqrt((1 - np.power(node.b2, node.t)) / (1 - np.power(node.b1, node.t)))
+		#print(tmp)
 		for i, it in enumerate(node.var_list):
-			placeholder.value_list[it] -= node.rate * m[i] / np.sqrt(v[i] + node.eps)
+			# node.m[i] = node.m[i] * node.b1 + (1 - node.b1) * grad[i]
+			# node.v[i] = node.v[i] * node.b2 + (1 - node.b2) * np.square(grad[i])
+			placeholder.value_list[it] -= tmp * node.m[i] / (np.sqrt(node.v[i]) + node.eps)
+
 		return None
 
 	def gradient(self, node, grad):

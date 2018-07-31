@@ -9,7 +9,7 @@ from tensorlow.base import float16, float32, float64, float128, \
 from tensorlow.ops import placeholder, Variable, constant, \
                             global_variables_initializer, assign, \
                             reduce_mean, reduce_sum, reshape, \
-                            matmul, exp, log, sqrt, pow, \
+                            matmul, exp, log, \
                             gradients, equal, argmax, cast
 
 from tensorlow.Session import Session
