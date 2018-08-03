@@ -12,12 +12,12 @@ class GradientDescentOptimizer(Op):
 	def minimize(self, loss, global_step=None, var_list=None):
 		new_node = Node()
 		new_node.op = self
-		new_node.rate = self.learning_rate
+		new_node.rate = float32(self.learning_rate)
 		if not var_list:
 			var_list = Variable.node_list
 		new_node.var_list = var_list
 		new_node.input = gradients(loss, var_list)
-		new_node.name = "GD(%s)" % loss.name
+		# new_node.name = "GD(%s)" % loss.name
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -34,8 +34,8 @@ class AdamOptimizer(Op):
 	#TODO
 	def __init__(self, learning_rate = 0.001, beta1 = 0.9, beta2 = 0.999, epsilon = 1e-08):
 		self.learning_rate = learning_rate
-		self.beta1 = float128(beta1)
-		self.beta2 = float128(beta2)
+		self.beta1 = float32(beta1)
+		self.beta2 = float32(beta2)
 		self.epsilon = epsilon
 
 
@@ -47,13 +47,13 @@ class AdamOptimizer(Op):
 		new_node.input = gradients(loss, var_list)
 		new_node.var_list = var_list
 		new_node.t = 0
-		new_node.m = np.zeros(np.shape(var_list))
-		new_node.v = np.zeros(np.shape(var_list))
+		new_node.m = 0
+		new_node.v = 0
 		new_node.b1 = self.beta1
 		new_node.b2 = self.beta2
 		new_node.eps = self.epsilon
 		new_node.rate = self.learning_rate
-		new_node.name = "Adma(%s)" % loss.name
+		# new_node.name = "Adma(%s)" % loss.name
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -61,13 +61,8 @@ class AdamOptimizer(Op):
 		node.t = node.t + 1
 		node.m = node.m * node.b1 + (1 - node.b1) * grad
 		node.v = node.v * node.b2 + (1 - node.b2) * np.square(grad)
-		# m = node.m / (1 - np.power(node.b1, node.t))
-		# v = node.v / (1 - np.power(node.b2, node.t))
 		tmp = node.rate * np.sqrt((1 - np.power(node.b2, node.t)) / (1 - np.power(node.b1, node.t)))
-		#print(tmp)
 		for i, it in enumerate(node.var_list):
-			# node.m[i] = node.m[i] * node.b1 + (1 - node.b1) * grad[i]
-			# node.v[i] = node.v[i] * node.b2 + (1 - node.b2) * np.square(grad[i])
 			placeholder.value_list[it] -= tmp * node.m[i] / (np.sqrt(node.v[i]) + node.eps)
 
 		return None

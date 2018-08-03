@@ -29,7 +29,6 @@ class Session:
 			val = []
 			for inputs in node.input:
 				val.append(node_value[inputs])
-			#print(node)
 			node_value[node] = node.op.compute(node, val)
 		return [node_value[node] for node in output]
 

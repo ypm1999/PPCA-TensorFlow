@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sjtu-ypm/PPCA-tensorflow/tensorlow/CNN_c/library.cpp
+cstdio
+-
+iostream
+-
+cstring
+-
+library.h
+/home/sjtu-ypm/PPCA-tensorflow/tensorlow/CNN_c/library.h
+cblas.h
+-
+
+/home/sjtu-ypm/PPCA-tensorflow/tensorlow/CNN_c/library.h
+

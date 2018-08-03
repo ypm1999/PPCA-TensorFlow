@@ -2,6 +2,26 @@
 # -*- coding:utf-8 -*-
 
 import numpy as np
+import ctypes
+
+ndpointer = np.ctypeslib.ndpointer
+c_float32 = ctypes.c_float
+c_int32 = ctypes.c_int32
+c_bool = ctypes.c_bool
+
+clib = ctypes.cdll.LoadLibrary("tensorlow/nn_c.so")
+# clib = ctypes.cdll.LoadLibrary("./nn_c.so")
+max_pool_c = clib.max_pool
+max_pool_c.argtypes = [ndpointer(c_float32)] * 2 + [ndpointer(c_int32)] + [c_int32] * 6
+backup_max_pool_c = clib.backup_max_pool
+backup_max_pool_c.argtypes = [ndpointer(c_int32)] + [ndpointer(c_float32)] * 2 + [c_int32] * 6
+conv2d_c = clib.conv2d
+conv2d_c.argtypes = [ndpointer(c_float32)] * 3 + [c_int32] * 7 + [c_bool]
+backup_conv2d_filter_c = clib.backup_conv2d_filter
+backup_conv2d_image_c = clib.backup_conv2d_image
+backup_conv2d_filter_c.argtypes = backup_conv2d_image_c.argtypes = conv2d_c.argtypes
+matmul_c = clib.Matmul
+matmul_c.argtypes = [ndpointer(c_float32)] * 3 + [c_int32] * 3
 
 float16 = np.float16
 float32 = np.float32

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -lopenblas -g -Wall -std=c++14 -O2 -g  -shared -Wl,-soname,libNN.so -o libNN.so CMakeFiles/NN.dir/library.cpp.o 
