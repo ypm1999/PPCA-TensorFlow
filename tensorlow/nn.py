@@ -22,6 +22,7 @@ class Softmax_Cross_Entropy_With_LogitsOp(Op):
 		new_node = Node()
 		new_node.op = self
 		new_node.input = [labels, logits]
+		new_node.name = "Softmax_Cross_Entropy_With_Logits(%s,%s)" % (labels.name, logits.name)
 		return new_node
 
 
@@ -29,8 +30,7 @@ class Softmax_Cross_Entropy_With_LogitsOp(Op):
 		label = input_vals[0]
 		logit = input_vals[1]
 		tmp = np.exp(logit)
-		_sum = np.sum(tmp, axis = -1, keepdims = True)
-		return -np.sum(label * np.log(tmp / _sum, axis = 1, keepdims = True))
+		return -np.sum(label * (np.log(tmp) - np.log(np.sum(tmp, axis = -1, keepdims = True))), axis = 1, keepdims = True)
 
 	def gradient(self, node, grad):
 		return [zeroslike(node.input[0]), grad * (nn.softmax(node.input[1]) - node.input[0])]
@@ -43,12 +43,19 @@ class SingOp(Op):
 		new_node = Node()
 		new_node.op = self
 		new_node.input = [node1]
-		# new_node.name = "sing(%s)" % node1.name
+		new_node.name = "sing(%s)" % node1.name
 		return new_node
 
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 1, "\033[1;31mNode number not suit at sign!\033[0m"
-		return np.maximum(np.sign(input_vals[0]), 0)
+		a = input_vals[0]
+		n = 1
+		for i in a.shape:
+			n  *= i
+		result = np.ndarray(shape = a.shape, dtype = float32)
+
+		sign_c(a, result, n)
+		return result
 
 	def gradient(self, node, grad):
 		assert False, "\033[1;31mSignOp don't have gradient!\033[0m"
@@ -59,12 +66,20 @@ class ReluOp(Op):
 		new_node = Node()
 		new_node.op = self
 		new_node.input = [features]
-		# new_node.name = "relu(%s)" % features.name
+		new_node.name = "relu(%s)" % features.name
 		return new_node
 
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 1, "\033[1;31mNode number not suit at relu!\033[0m"
-		return np.maximum(input_vals[0], 0)
+		a = input_vals[0]
+		shape = a.shape
+		n = 1
+		for i in shape:
+			n *= i
+		result = np.ndarray(shape = shape, dtype = float32)
+
+		relu_c(a, result, n)
+		return result
 
 	def gradient(self, node, grad):
 		return [sign(node.input[0]) * grad]
@@ -84,15 +99,15 @@ class Conv2dOp(Op):
 		assert len(input_vals) == 2, "\033[1;31mNode number not suit at nn.conv2d!\033[0m"
 		img = input_vals[0]
 		flt = input_vals[1]
-		num, n, m, ins = np.shape(img)
-		fn, fm, fin, fout = np.shape(flt)
+		num, n, m, ins = img.shape
+		fn, fm, fin, fout = flt.shape
 		assert ins == fin, "\033[1;31mThe number of channels is not same for img and filter!\033[0m"
 		if(node.padding == 'SAME'):
-			result = np.zeros(shape = (num, n, m, fout), dtype = np.float32)
+			result = np.ndarray(shape = (num, n, m, fout), dtype = np.float32)
 		else:
-			result = np.zeros(shape = (num, n - fn + 1, m - fm + 1, fout), dtype = np.float32)
+			result = np.ndarray(shape = (num, n - fn + 1, m - fm + 1, fout), dtype = np.float32)
 		conv2d_c(img, flt, result, num, n, m, fn, fm, fin, fout, node.padding == 'SAME')
-		return np.array(result)
+		return result
 
 
 	def gradient(self, node, grad):
@@ -112,13 +127,14 @@ class Grad_Of_conv2dOp(Op):
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 3, "\033[1;31mNode number not suit at nn.conv2d!\033[0m"
 		img = input_vals[0]
-		flt = input_vals[1].astype(float32)
-		grad = input_vals[2].astype(float32)
-		fn, fm, fin, fout = np.shape(flt)
-		num, n, m, ins = np.shape(img)
-		result = np.zeros(shape = (num, n, m, fin), dtype = np.float32)
+		flt = input_vals[1]
+		grad = input_vals[2]
+		fn, fm, fin, fout = flt.shape
+		num, n, m, ins = img.shape
+		result = np.ndarray(shape = (num, n, m, fin), dtype = np.float32)
+
 		backup_conv2d_image_c(grad, flt, result, num, n, m, fn, fm, fin, fout, node.padding == 'SAME')
-		return np.array(result)
+		return result
 
 	def gradient(self, node, grad):
 		assert False, "\033[1;31mgradient of conv2d don't have gradient!\033[0m"
@@ -135,14 +151,13 @@ class Grad_toW_Of_conv2dOp():
 
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 3, "\033[1;31mNode number not suit at nn.conv2d!\033[0m"
-		img = input_vals[0].astype(float32)
+		img = input_vals[0]
 		flt = input_vals[1]
-		grad  = input_vals[2].astype(float32)
-		num, n, m, ins = np.shape(img)
-		fn, fm, fin, fout = np.shape(flt)
+		grad  = input_vals[2]
+		num, n, m, ins = img.shape
+		fn, fm, fin, fout = flt.shape
 		result = np.zeros(shape = (fn, fm, fin, fout), dtype = np.float32)
 		backup_conv2d_filter_c(img, grad, result, num, n, m, fn, fm, fin, fout, node.padding == "SAME")
-		result = np.array(result)
 		return result
 
 	def gradient(self, node, grad):
@@ -169,8 +184,8 @@ class MaxpoolOp(Op):
 		num, n, m, ins = np.shape(img)
 		result = np.ndarray(shape = (num, n // node.ksize[1], m // node.ksize[2], ins), dtype = float32)
 		node.maxpos = np.ndarray(shape = result.shape, dtype = int32)
+
 		max_pool_c(img, result, node.maxpos, num, n, m, node.ksize[1], node.ksize[2], ins)
-		result = np.array(result)
 		return result
 
 	def gradient(self, node, grad):
@@ -187,11 +202,11 @@ class Grad_Of_MaxpoolOp(Op):
 
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 3, "\033[1;31mNode number not suit at max_pool's gradient!\033[0m"
-		grad = input_vals[2].astype(float32)
-		num, n, m, ins = np.shape(input_vals[1])
+		grad = input_vals[2]
+		num, n, m, ins = input_vals[1].shape
 		result = np.zeros(shape = (num, n, m, ins), dtype = float32)
+
 		backup_max_pool_c(node.input[0].maxpos, grad, result, num, n, m, node.ksize[1], node.ksize[2], ins)
-		result = np.array(result)
 		return result
 
 	def gradient(self, node, grad):

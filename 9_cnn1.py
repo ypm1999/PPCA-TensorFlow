@@ -64,7 +64,7 @@ mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
 # train and eval
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
-    for i in range(50):
+    for i in range(200):
         batch = mnist.train.next_batch(100)
         if i % 50 == 0:
             train_accuracy = accuracy.eval(feed_dict = { x: batch[0],
@@ -73,8 +73,8 @@ with tf.Session() as sess:
 
         train_step.run(feed_dict={x: batch[0], y_: batch[1]})
 
-    # ans = accuracy.eval(feed_dict={ x:mnist.test.images,
-    #                                 y_: mnist.test.labels})
-    # print('Test accuracy: %g' % ans)
-    # assert ans > 0.88
+    ans = accuracy.eval(feed_dict={ x:mnist.test.images,
+                                    y_: mnist.test.labels})
+    print('Test accuracy: %g' % ans)
+    assert ans > 0.88
 
