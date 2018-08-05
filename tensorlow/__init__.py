@@ -1,4 +1,4 @@
-#！/user/bin/env python3
+#!/user/bin/env python3
 # -*- coding:utf-8 -*-
 
 from tensorlow.base import float16, float32, float64, float128, \
@@ -15,5 +15,3 @@ from tensorlow.ops import placeholder, Variable, constant, \
 from tensorlow.Session import Session
 from tensorlow.nn import nn as nn
 import tensorlow.train
-
-

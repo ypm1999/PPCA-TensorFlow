@@ -1,4 +1,4 @@
-#！/user/bin/env python3
+#!/user/bin/env python3
 # -*- coding:utf-8 -*-
 
 from tensorlow.ops import *
@@ -92,7 +92,7 @@ class Conv2dOp(Op):
 		new_node.input = [image, filter]
 		new_node.strides = strides
 		new_node.padding = padding
-#		# new_node.name = "conv2d(%s,%s)" % (image.name, filter.name)
+		new_node.name = "conv2d(%s,%s)" % (image.name, filter.name)
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -175,7 +175,7 @@ class MaxpoolOp(Op):
 		new_node.strides = strides
 		new_node.padding = padding.lower()
 		new_node.maxpos = None
-#		# new_node.name = "maxpool(%s)" % value.name
+		new_node.name = "maxpool(%s)" % value.name
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -219,7 +219,7 @@ class DropoutOp(Op):
 		new_node.op = self
 		new_node.input = [x, keep_prob]
 		new_node.data = None
-		# new_node.name = "dropout(%s,%s)" % (x.name, keep_prob.name)
+		new_node.name = "dropout(%s,%s)" % (x.name, keep_prob.name)
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -240,7 +240,7 @@ class Grad_Of_DropoutOp(Op):
 		new_node = Node()
 		new_node.op = self
 		new_node.input = [node1, node2]
-		# new_node.name = "grad_of_dropout(%s,%s)" % (node1.name, node2.name)
+		new_node.name = "grad_of_dropout(%s,%s)" % (node1.name, node2.name)
 		return new_node
 
 	def compute(self, node, input_vals):

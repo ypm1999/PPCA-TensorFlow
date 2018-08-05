@@ -1,4 +1,4 @@
-#！/user/bin/env python3
+#!/user/bin/env python3
 # -*- coding:utf-8 -*-
 
 import numpy as np
@@ -20,7 +20,8 @@ conv2d_c = clib.conv2d
 backup_conv2d_filter_c = clib.backup_conv2d_filter
 backup_conv2d_image_c = clib.backup_conv2d_image
 conv2d_c.argtypes = [ndpointer(c_float32)] * 3 + [c_int32] * 7 + [c_bool]
-backup_conv2d_filter_c.argtypes = backup_conv2d_image_c.argtypes = conv2d_c.argtypes
+backup_conv2d_filter_c.argtypes = [ndpointer(c_float32)] * 3 + [c_int32] * 7 + [c_bool]
+backup_conv2d_image_c.argtypes = [ndpointer(c_float32)] * 3 + [c_int32] * 7 + [c_bool]
 
 matmul_c = clib.Matmul
 matmul_c.argtypes = [ndpointer(c_float32)] * 3 + [c_int32] * 3
@@ -51,8 +52,3 @@ ones = np.ones
 
 def random_normal(shape,mean=0.0,stddev=1.0,dtype=float32):
 	return np.random.normal(mean, stddev, shape).astype(dtype)
-
-
-
-
-

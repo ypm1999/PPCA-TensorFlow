@@ -192,7 +192,7 @@ void backup_conv2d_filter(float *_img, float *_flt, float *_result,
     r -= fm - 1;
     int new_n = d - u, new_m = r - l;
     float *image = new float[new_n * new_m * fin * fn * fm];
-    memset(image, 0, new_n * new_m * fin * fn * fm *sizeof(float));
+    memset(image, 0, new_n * new_m * fin * fn * fm * sizeof(float));
 
     for(uint now = 0; now < num; now++) {
         float *img_now = img + (now * n * m * fin);

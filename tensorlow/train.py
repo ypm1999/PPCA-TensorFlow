@@ -1,4 +1,4 @@
-#！/user/bin/env python3
+#!/user/bin/env python3
 # -*- coding:utf-8 -*-
 
 from tensorlow.ops import *
@@ -69,6 +69,3 @@ class AdamOptimizer(Op):
 
 	def gradient(self, node, grad):
 		assert False, "\033[1;31mAdam don't have gradient!\033[0m"
-
-
-

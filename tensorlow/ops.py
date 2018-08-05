@@ -1,4 +1,4 @@
-#！/user/bin/env python3
+#!/user/bin/env python3
 # -*- coding:utf-8 -*-
 
 from tensorlow.base import *
@@ -447,7 +447,7 @@ class Expand_MeanOp(Op):
 		else:
 			for i in new_shape:
 				res = res * i
-		return np.broadcast_to(input_vals[0] / float32(res), np.shape(input_vals[1]))
+		return np.array(np.broadcast_to(input_vals[0] / float32(res), np.shape(input_vals[1])))
 
 	def gradient(self, node, grad):
 		assert False, "\033[1;31mExpand_mean don't have gradient!\033[0m"
@@ -496,7 +496,7 @@ class Expand_SumOp(Op):
 		assert len(input_vals) == 2, "\033[1;31mNode number not suit at expand_sum!\033[0m"
 		if node.axis and not node.keepdims:
 			input_vals[0] = np.expand_dims(input_vals[0], node.axis)
-		return np.broadcast_to(input_vals[0], np.shape(input_vals[1]))
+		return np.array(np.broadcast_to(input_vals[0], np.shape(input_vals[1])))
 
 	def gradient(self, node, grad):
 		assert False, "\033[1;31mExpand_sum don't have gradient!\033[0m"

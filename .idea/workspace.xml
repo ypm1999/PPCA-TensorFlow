@@ -3,327 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="fe22548e-43ad-49d2-bbf1-afcc0d49c593" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_cnn2.py" beforeDir="false" afterPath="$PROJECT_DIR$/10_cnn2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_cnn1.py" beforeDir="false" afterPath="$PROJECT_DIR$/9_cnn1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/a.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/maker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/maker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/std" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/std.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/std.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/std1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/std1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/162(题面）/std1.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/a.in" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/maker" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/maker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/std" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/std.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/std1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problems/181/std1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/CNN_c/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Cholesky" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/CholmodSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Core" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Dense" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Eigen" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Eigenvalues" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Geometry" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Householder" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/IterativeLinearSolvers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Jacobi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/LU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/MetisSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/OrderingMethods" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/PaStiXSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/PardisoSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/QR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/QtAlignedMalloc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SPQRSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SVD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/Sparse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SparseCholesky" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SparseCore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SparseLU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SparseQR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/StdDeque" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/StdList" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/StdVector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/SuperLUSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/UmfPackSupport" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Cholesky/LDLT.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Cholesky/LLT.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Cholesky/LLT_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/CholmodSupport/CholmodSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Array.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/ArrayBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/ArrayWrapper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Assign.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/AssignEvaluator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Assign_MKL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/BandMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Block.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/BooleanRedux.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CommaInitializer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/ConditionEstimator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CoreEvaluators.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CoreIterators.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CwiseBinaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CwiseNullaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CwiseTernaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CwiseUnaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/CwiseUnaryView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/DenseBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/DenseCoeffsBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/DenseStorage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Diagonal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/DiagonalMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/DiagonalProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Dot.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/EigenBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/ForceAlignedAccess.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Fuzzy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/GeneralProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/GenericPacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/GlobalFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/IO.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Inverse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Map.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/MapBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/MathFunctionsImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Matrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/MatrixBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/NestByValue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/NoAlias.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/NumTraits.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/PermutationMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/PlainObjectBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Product.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/ProductEvaluators.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Random.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Redux.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Ref.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Replicate.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/ReturnByValue.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Reverse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Select.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/SelfAdjointView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/SelfCwiseBinaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Solve.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/SolveTriangular.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/SolverBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/StableNorm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Stride.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Swap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Transpose.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Transpositions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/TriangularMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/VectorBlock.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/VectorwiseOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/Visitor.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AVX/Complex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AVX/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AVX/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AVX/TypeCasting.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AVX512/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AVX512/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AltiVec/Complex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AltiVec/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/AltiVec/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/CUDA/Complex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/CUDA/Half.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/CUDA/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/CUDA/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/CUDA/PacketMathHalf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/CUDA/TypeCasting.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/Default/ConjHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/Default/Settings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/NEON/Complex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/NEON/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/NEON/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/SSE/Complex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/SSE/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/SSE/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/SSE/TypeCasting.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/ZVector/Complex.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/ZVector/MathFunctions.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/arch/ZVector/PacketMath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/functors/AssignmentFunctors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/functors/BinaryFunctors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/functors/NullaryFunctors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/functors/StlFunctors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/functors/TernaryFunctors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/functors/UnaryFunctors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralBlockPanelKernel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralMatrixMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralMatrixMatrixTriangular.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralMatrixMatrix_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralMatrixVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/GeneralMatrixVector_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/Parallelizer.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/SelfadjointMatrixMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/SelfadjointMatrixMatrix_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/SelfadjointMatrixVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/SelfadjointMatrixVector_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/SelfadjointProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/SelfadjointRank2Update.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularMatrixMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularMatrixMatrix_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularMatrixVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularMatrixVector_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularSolverMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularSolverMatrix_BLAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/products/TriangularSolverVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/BlasUtil.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/Constants.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/DisableStupidWarnings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/ForwardDeclarations.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/MKL_support.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/Macros.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/Memory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/Meta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/NonMPL2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/ReenableStupidWarnings.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/StaticAssert.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Core/util/XprHelper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/ComplexEigenSolver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/ComplexSchur.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/ComplexSchur_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/EigenSolver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/HessenbergDecomposition.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/RealQZ.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/RealSchur.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/RealSchur_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Eigenvalues/Tridiagonalization.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/AlignedBox.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/AngleAxis.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/EulerAngles.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Homogeneous.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Hyperplane.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/OrthoMethods.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/ParametrizedLine.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Quaternion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Rotation2D.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/RotationBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Scaling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Transform.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Translation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/Umeyama.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Geometry/arch/Geometry_SSE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Householder/BlockHouseholder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Householder/Householder.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Householder/HouseholderSequence.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/BiCGSTAB.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/ConjugateGradient.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/IncompleteCholesky.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/IncompleteLUT.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/IterativeSolverBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/LeastSquareConjugateGradient.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/IterativeLinearSolvers/SolveWithGuess.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/Jacobi/Jacobi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/LU/Determinant.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/LU/FullPivLU.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/LU/InverseImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/LU/PartialPivLU.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/LU/PartialPivLU_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/LU/arch/Inverse_SSE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/MetisSupport/MetisSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/OrderingMethods/Amd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/OrderingMethods/Eigen_Colamd.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/OrderingMethods/Ordering.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/PaStiXSupport/PaStiXSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/PardisoSupport/PardisoSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/QR/ColPivHouseholderQR.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/QR/ColPivHouseholderQR_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/QR/CompleteOrthogonalDecomposition.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/QR/FullPivHouseholderQR.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/QR/HouseholderQR.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/QR/HouseholderQR_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SPQRSupport/SuiteSparseQRSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SVD/BDCSVD.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SVD/JacobiSVD.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SVD/JacobiSVD_LAPACKE.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SVD/SVDBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SVD/UpperBidiagonalization.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCholesky/SimplicialCholesky.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCholesky/SimplicialCholesky_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/AmbiVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/CompressedStorage.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/ConservativeSparseSparseProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/MappedSparseMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseAssign.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseBlock.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseColEtree.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseCompressedBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseCwiseBinaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseCwiseUnaryOp.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseDenseProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseDiagonalProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseDot.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseFuzzy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseMap.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseMatrixBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparsePermutation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseProduct.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseRedux.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseRef.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseSelfAdjointView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseSolverBase.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseSparseProductWithPruning.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseTranspose.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseTriangularView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseUtil.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/SparseView.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseCore/TriangularSolver.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLUImpl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_Memory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_Structs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_SupernodalMatrix.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_Utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_column_bmod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_column_dfs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_copy_to_ucol.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_gemm_kernel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_heap_relax_snode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_kernel_bmod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_panel_bmod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_panel_dfs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_pivotL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_pruneL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseLU/SparseLU_relax_snode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SparseQR/SparseQR.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/StlSupport/StdDeque.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/StlSupport/StdList.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/StlSupport/StdVector.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/StlSupport/details.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/SuperLUSupport/SuperLUSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/UmfPackSupport/UmfPackSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/Image.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/Kernel.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/RealSvd2x2.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/blas.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/lapack.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/lapacke.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/misc/lapacke_mangling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/ArrayCwiseBinaryOps.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/ArrayCwiseUnaryOps.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/BlockMethods.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/CommonCwiseBinaryOps.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/CommonCwiseUnaryOps.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/MatrixCwiseBinaryOps.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Eigen/src/plugins/MatrixCwiseUnaryOps.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/CNN_c/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/OpenBLAS_install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/CNN_c/OpenBLAS_install.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/cblas.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/f77blas.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/lapacke.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/lapacke_config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/lapacke_mangling.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/lapacke_utils.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/include/openblas_config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/libopenblas.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/library.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/CNN_c/library.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorlow/Session.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/Session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorlow/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/base.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/nn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorlow/topo.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/topo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase_2017_git" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_2017_git" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/10_cnn_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/9_cnn_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase_2017_git" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -334,11 +49,12 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$test.coverage" NAME="test Coverage Results" MODIFIED="1533127065769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow/CNN_c" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$cnn_0.coverage" NAME="cnn_0 Coverage Results" MODIFIED="1533442906133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Logistic_Regression.coverage" NAME="Logistic_Regression Coverage Results" MODIFIED="1532151022933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$topo.coverage" NAME="topo Coverage Results" MODIFIED="1532917816610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$autodiff.coverage" NAME="autodiff Coverage Results" MODIFIED="1532615006018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/autodiff" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$5_mnist_grad.coverage" NAME="5_mnist_grad Coverage Results" MODIFIED="1533094667587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$7_ml_pern.coverage" NAME="7_ml_pern Coverage Results" MODIFIED="1533303293695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$7_ml_pern.coverage" NAME="7_ml_pern Coverage Results" MODIFIED="1533435646812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$Mytf.coverage" NAME="Mytf Coverage Results" MODIFIED="1532521756761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MyTensorFlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$assign.coverage" NAME="assign Coverage Results" MODIFIED="1532688218778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$test9_10.coverage" NAME="test9-10 Coverage Results" MODIFIED="1533377293205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -350,10 +66,10 @@
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$tensorflow_CNN.coverage" NAME="tensorflow-CNN Coverage Results" MODIFIED="1532337434354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/CNN &amp; LR" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$9_cnn1.coverage" NAME="9_cnn1 Coverage Results" MODIFIED="1533316054716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$context.coverage" NAME="context Coverage Results" MODIFIED="1532687964246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$train.coverage" NAME="train Coverage Results" MODIFIED="1532785605028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$train.coverage" NAME="train Coverage Results" MODIFIED="1533435642910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$init.coverage" NAME="init Coverage Results" MODIFIED="1532774708524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1532696017397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
-    <SUITE FILE_PATH="coverage/PPCA_tensorflow$nn.coverage" NAME="nn Coverage Results" MODIFIED="1533370106058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
+    <SUITE FILE_PATH="coverage/PPCA_tensorflow$nn.coverage" NAME="nn Coverage Results" MODIFIED="1533440504802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorlow" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1532838476666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$7_ml_perceptron__1_.coverage" NAME="7_ml_perceptron (1) Coverage Results" MODIFIED="1533005872814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$7_ml_perceptron.coverage" NAME="7_ml_perceptron Coverage Results" MODIFIED="1533298396587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -373,50 +89,56 @@
       <file leaf-file-name="nn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2709">
-              <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
+            <state relative-caret-position="201">
+              <caret line="131" column="37" lean-forward="true" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test9-10.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test9-10.py">
+      <file leaf-file-name="Session.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-160">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ops.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="453" lean-forward="true" selection-start-line="453" selection-end-line="453" />
-              <folding>
-                <element signature="e#48#76#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="344">
+              <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="34" />
+            <state relative-caret-position="315">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7_ml_pern.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7_ml_pern.py">
+      <file leaf-file-name="ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="159">
+              <caret line="498" column="80" selection-start-line="498" selection-start-column="80" selection-end-line="498" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cnn_0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnn_0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -424,8 +146,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+            <state relative-caret-position="365">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
             </state>
           </provider>
         </entry>
@@ -434,9 +156,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;Node</find>
-      <find />
-      <find>negop</find>
       <find>Assign</find>
       <find>reduce_sh</find>
       <find>reul</find>
@@ -447,10 +166,8 @@
       <find>convolve2d</find>
       <find>max</find>
       <find>div</find>
-      <find>print</find>
       <find>zeros</find>
       <find>dtype</find>
-      <find>ones</find>
       <find>float32</find>
       <find>assert</find>
       <find>float64</find>
@@ -458,9 +175,17 @@
       <find>new_node.name</find>
       <find>mat</find>
       <find>asty</find>
-      <find />
       <find>np.shape</find>
       <find>shape()</find>
+      <find />
+      <find>Var</find>
+      <find>name</find>
+      <find>ones</find>
+      <find>n</find>
+      <find># new_node.name</find>
+      <find>np.b</find>
+      <find>array</find>
+      <find>print</find>
     </findStrings>
     <replaceStrings>
       <replace>newNode</replace>
@@ -475,8 +200,8 @@
       <replace />
       <replace>float64</replace>
       <replace>assert</replace>
-      <replace>new_node.name</replace>
       <replace>\t</replace>
+      <replace>new_node.name</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -518,17 +243,18 @@
         <option value="$PROJECT_DIR$/9_cnn_1.py" />
         <option value="$PROJECT_DIR$/10_cnn_2.py" />
         <option value="$PROJECT_DIR$/8_adam.py" />
-        <option value="$PROJECT_DIR$/tensorlow/Session.py" />
         <option value="$PROJECT_DIR$/7_ml_pern.py" />
         <option value="$PROJECT_DIR$/5_mnist_grad.py" />
         <option value="$PROJECT_DIR$/5_mnistgrad.py" />
         <option value="$PROJECT_DIR$/10_cnn2.py" />
         <option value="$PROJECT_DIR$/9_cnn1.py" />
-        <option value="$PROJECT_DIR$/tensorlow/base.py" />
-        <option value="$PROJECT_DIR$/tensorlow/ops.py" />
         <option value="$PROJECT_DIR$/tensorlow/train.py" />
-        <option value="$PROJECT_DIR$/tensorlow/nn.py" />
         <option value="$PROJECT_DIR$/test9-10.py" />
+        <option value="$PROJECT_DIR$/tensorlow/Session.py" />
+        <option value="$PROJECT_DIR$/tensorlow/base.py" />
+        <option value="$PROJECT_DIR$/tensorlow/nn.py" />
+        <option value="$PROJECT_DIR$/tensorlow/ops.py" />
+        <option value="$PROJECT_DIR$/cnn_0.py" />
         <option value="$PROJECT_DIR$/run_test.py" />
       </list>
     </option>
@@ -600,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test9-10">
+  <component name="RunManager" selected="Python.cnn_0">
     <configuration name="7_ml_pern" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -620,7 +346,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="9_cnn1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cnn_0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -633,7 +359,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9_cnn1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn_0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -658,25 +384,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ops" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PPCA-tensorflow" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorlow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorlow/ops.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="test9-10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PPCA-tensorflow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -696,20 +403,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PPCA-tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorlow" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorlow/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.7_ml_pern" />
-      <item itemvalue="Python.ops" />
-      <item itemvalue="Python.9_cnn1" />
       <item itemvalue="Python.test9-10" />
       <item itemvalue="Python.nn" />
+      <item itemvalue="Python.cnn_0" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.7_ml_pern" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test9-10" />
+        <item itemvalue="Python.cnn_0" />
         <item itemvalue="Python.nn" />
-        <item itemvalue="Python.9_cnn1" />
         <item itemvalue="Python.7_ml_pern" />
-        <item itemvalue="Python.ops" />
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.test9-10" />
       </list>
     </recent_temporary>
   </component>
@@ -815,7 +541,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.37011495" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967343" weight="0.21413934" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967343" weight="0.42520493" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.16927224" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -893,6 +619,11 @@
           <line>13</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tensorlow/train.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -904,7 +635,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="238" />
+      <option name="time" value="251" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -949,13 +680,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/autodiff/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/autodiff/autodiff_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="545">
@@ -1191,23 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#48#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/9_cnn1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1229,24 +936,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2709">
-          <caret line="129" column="27" selection-start-line="129" selection-start-column="27" selection-end-line="129" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/8_adam.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test9-10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1257,30 +960,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/run_test.py">
+    <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="34" />
+        <state relative-caret-position="365">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test9-10.py">
+    <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="344">
+          <caret line="49" column="16" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="453" lean-forward="true" selection-start-line="453" selection-end-line="453" />
+        <state relative-caret-position="159">
+          <caret line="498" column="80" selection-start-line="498" selection-start-column="80" selection-end-line="498" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="131" column="37" lean-forward="true" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorlow/Session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnn_0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
           <folding>
-            <element signature="e#48#76#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>

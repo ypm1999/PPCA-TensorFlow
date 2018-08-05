@@ -1,4 +1,4 @@
-#！/user/bin/env python3
+#!/user/bin/env python3
 # -*- coding:utf-8 -*-
 
 from tensorlow.ops import *
@@ -37,7 +37,7 @@ class Session:
 			for i, j in feed_dict.items():
 				if not i in placeholder.placeholder_list:
 					raise NameError
-				if isinstance(j, list):
+				if isinstance(j, (list, np.ndarray)):
 					placeholder.value_list[i] = np.array(j, dtype = i.dtype)
 				else:
 					placeholder.value_list[i] = i.dtype(j)
@@ -58,4 +58,3 @@ class Session:
 
 
 default_session = Session()
-
