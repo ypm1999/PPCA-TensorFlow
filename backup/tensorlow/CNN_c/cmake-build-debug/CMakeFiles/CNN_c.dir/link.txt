@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libCNN_c.so -o libCNN_c.so CMakeFiles/CNN_c.dir/library.cpp.o 

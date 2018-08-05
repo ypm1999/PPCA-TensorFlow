@@ -51,7 +51,7 @@ class SingOp(Op):
 		a = input_vals[0]
 		n = 1
 		for i in a.shape:
-			n  *= i
+			n *= i
 		result = np.ndarray(shape = a.shape, dtype = float32)
 
 		sign_c(a, result, n)
@@ -122,6 +122,7 @@ class Grad_Of_conv2dOp(Op):
 		new_node.input = [img, filter, grad]
 		new_node.strides = strides
 		new_node.padding = padding
+		new_node.name = "grad_of_conv2d(%s,%s,%s)" % (img.name, filter.name, grad.name)
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -147,6 +148,7 @@ class Grad_toW_Of_conv2dOp():
 		new_node.input = [img, filter, grad]
 		new_node.strides = strides
 		new_node.padding = padding
+		new_node.name = "grad_toW_of_conv2d(%s,%s,%s)" % (img.name, filter.name, grad.name)
 		return new_node
 
 	def compute(self, node, input_vals):
@@ -156,7 +158,7 @@ class Grad_toW_Of_conv2dOp():
 		grad  = input_vals[2]
 		num, n, m, ins = img.shape
 		fn, fm, fin, fout = flt.shape
-		result = np.zeros(shape = (fn, fm, fin, fout), dtype = np.float32)
+		result = np.ndarray(shape = (fn, fm, fin, fout), dtype = np.float32)
 		backup_conv2d_filter_c(img, grad, result, num, n, m, fn, fm, fin, fout, node.padding == "SAME")
 		return result
 
@@ -198,13 +200,14 @@ class Grad_Of_MaxpoolOp(Op):
 		new_node.op = self
 		new_node.input = [node1, node2, node3]
 		new_node.ksize = ksize
+		new_node.name = "grad_of_maxpool(%s,%s,%s)" % (node1.name, node2.name, node3.name)
 		return new_node
 
 	def compute(self, node, input_vals):
 		assert len(input_vals) == 3, "\033[1;31mNode number not suit at max_pool's gradient!\033[0m"
 		grad = input_vals[2]
 		num, n, m, ins = input_vals[1].shape
-		result = np.zeros(shape = (num, n, m, ins), dtype = float32)
+		result = np.ndarray(shape = (num, n, m, ins), dtype = float32)
 
 		backup_max_pool_c(node.input[0].maxpos, grad, result, num, n, m, node.ksize[1], node.ksize[2], ins)
 		return result
