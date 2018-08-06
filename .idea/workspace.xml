@@ -2,110 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe22548e-43ad-49d2-bbf1-afcc0d49c593" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_cnn2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5_mnistgrad.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/7_ml_pern.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9_cnn1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/.idea/CNN_c.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/.idea/dictionaries/sjtu_ypm.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/CNN_c.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/CNN_c.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/3.10.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/CNN_c.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/CNN_c.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/cmake-build-release/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/library" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/library.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/library.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/CNN_c/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/MNIST_data/t10k-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/MNIST_data/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/MNIST_data/train-images-idx3-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/MNIST_data/train-labels-idx1-ubyte.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/Session.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/nn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/ops.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/topo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backup/tensorlow/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cnn_0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dl-system-test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log1.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/submit" beforeDir="false" afterPath="$PROJECT_DIR$/submit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submit.." beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/CNN_c/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tensorlow/CNN_c/library.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/CNN_c/library.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/Session.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/Session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/nn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorlow/ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorlow/ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test10.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test9-10.py" beforeDir="false" afterPath="$PROJECT_DIR$/test9-10.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -153,80 +52,62 @@
     <SUITE FILE_PATH="coverage/PPCA_tensorflow$session.coverage" NAME="session Coverage Results" MODIFIED="1532342725907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/usr/local/lib/python3.5/dist-packages/tensorflow/python/client" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="nn.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="239">
-                  <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="613">
-                  <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test9-10.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test9-10.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="175">
-                  <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="PPCA-tensorflow2.pstat" pinned="false" current-in-tab="true">
-            <entry file="mock:///home/sjtu-ypm/.PyCharm2018.1/system/snapshots/PPCA-tensorflow2.pstat">
-              <provider selected="true" editor-type-id="profiler-session-editor" />
-            </entry>
-          </file>
-          <file leaf-file-name="run_test.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/run_test.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ops.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="365">
-                  <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="263">
-                  <caret line="59" selection-start-line="59" selection-end-line="59" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="PPCA-tensorflow.pstat" pinned="false" current-in-tab="true">
-            <entry file="mock:///home/sjtu-ypm/.PyCharm2018.1/system/snapshots/PPCA-tensorflow.pstat">
-              <provider selected="true" editor-type-id="profiler-session-editor" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="nn.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/nn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="156" column="17" selection-start-line="156" selection-start-column="17" selection-end-line="156" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="613">
+              <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test9-10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test9-10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="77" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="194" column="4" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorlow/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -621,7 +502,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.37011495" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865228" visible="true" weight="0.27561477" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865228" weight="0.27561477" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32991913" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.16927224" />
@@ -977,8 +858,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test9-10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="144" column="29" lean-forward="true" selection-start-line="144" selection-start-column="29" selection-end-line="144" selection-end-column="29" />
+        <state relative-caret-position="1575">
+          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="77" selection-end-column="25" />
         </state>
       </provider>
     </entry>

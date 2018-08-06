@@ -37,8 +37,8 @@
       <file leaf-file-name="library.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/library.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="240" column="11" lean-forward="true" selection-start-line="223" selection-start-column="10" selection-end-line="240" selection-end-column="11" />
+            <state relative-caret-position="408">
+              <caret line="310" column="1" lean-forward="true" selection-start-line="310" selection-start-column="1" selection-end-line="310" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,7 +85,7 @@
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="595" />
+    <option name="x" value="492" />
     <option name="y" value="24" />
     <option name="width" value="1428" />
     <option name="height" value="999" />
@@ -139,15 +139,15 @@
       <workItem from="1533468742241" duration="871000" />
       <workItem from="1533469786626" duration="854000" />
       <workItem from="1533471472046" duration="11027000" />
-      <workItem from="1533488079019" duration="4378000" />
+      <workItem from="1533488079019" duration="5107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104118000" />
+    <option name="totallyTimeSpent" value="104847000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="595" y="24" width="1428" height="999" extended-state="0" />
+    <frame x="492" y="24" width="1428" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.09520807" />
@@ -384,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="240" column="11" lean-forward="true" selection-start-line="223" selection-start-column="10" selection-end-line="240" selection-end-column="11" />
+        <state relative-caret-position="408">
+          <caret line="310" column="1" lean-forward="true" selection-start-line="310" selection-start-column="1" selection-end-line="310" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -221,24 +221,24 @@ void backup_conv2d_filter(float *_img, float *_flt, float *_result,
     for(uint now = 0; now < num; now++) {
         float *img_now = img + (now * n * m * fin);
         //clo2im
-//        for (int i = u; i < d; i++) {
-//            for (int j = l; j < r; j++) {
-//                float* tmp_img = image + fn * fm * fin * ((i - u) * new_m + j - l);
-//                int td = i + fn, ll = std::max(j, 0), rr = std::min(j + fm, m);
-//                for (int x = i; x < td; x++, tmp_img += fm){
-//                    if(x < 0 || x >= n)
-//                        continue;
-//                    float *tmp_img1 = tmp_img, *tmp_tmp_img, *img_now_now, *end_img;
-//                    for (int y = ll; y < rr; y++, tmp_img1++) {
-//                        tmp_tmp_img = tmp_img1;
-//                        img_now_now = img_now + (x * m + y) * fin;
-//                        end_img = img_now_now + fin;
-//                        for (; img_now_now != end_img; tmp_tmp_img += fn * fm, img_now_now++)
-//                            *tmp_tmp_img = *img_now_now;
-//                    }
-//                }
-//            }
-//        }
+        for (int i = u; i < d; i++) {
+            for (int j = l; j < r; j++) {
+                float* tmp_img = image + fn * fm * fin * ((i - u) * new_m + j - l);
+                int td = i + fn, ll = std::max(j, 0), rr = std::min(j + fm, m);
+                for (int x = i; x < td; x++, tmp_img += fm){
+                    if(x < 0 || x >= n)
+                        continue;
+                    float *tmp_img1 = tmp_img, *tmp_tmp_img, *img_now_now, *end_img;
+                    for (int y = ll; y < rr; y++, tmp_img1++) {
+                        tmp_tmp_img = tmp_img1;
+                        img_now_now = img_now + (x * m + y) * fin;
+                        end_img = img_now_now + fin;
+                        for (; img_now_now != end_img; tmp_tmp_img += fn * fm, img_now_now++)
+                            *tmp_tmp_img = *img_now_now;
+                    }
+                }
+            }
+        }
         float *filter = flt + (now * fn * fm * fout);
         matmul(image, filter, result, (uint)(new_n * new_m) * fin, fn * fm, fout, (float)(now > 0));
     }

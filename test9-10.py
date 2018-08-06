@@ -73,9 +73,9 @@ def work9():
 
 			train_step.run(feed_dict = {x: batch[0], y_: batch[1]})
 
-		# ans = accuracy.eval(feed_dict = {x: mnist.test.images, y_: mnist.test.labels})
-		# print('Test accuracy: %g' % ans)
-		# assert ans > 0.88
+		ans = accuracy.eval(feed_dict = {x: mnist.test.images, y_: mnist.test.labels})
+		print('Test accuracy: %g' % ans)
+		assert ans > 0.88
 
 
 def work10():
@@ -152,9 +152,9 @@ def work10():
 
 			train_step.run(feed_dict = {x: batch[0], y_: batch[1], keep_prob: 0.5})
 
-		# ans = accuracy.eval(feed_dict = {x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
-		# print('test accuracy %g' % ans)
-		# assert ans > 0.92
+		ans = accuracy.eval(feed_dict = {x: mnist.test.images, y_: mnist.test.labels, keep_prob: 1.0})
+		print('test accuracy %g' % ans)
+		assert ans > 0.92
 
 if __name__ == "__main__":
 	work9()
