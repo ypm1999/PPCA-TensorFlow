@@ -42,18 +42,18 @@ int main(){
 #ifdef DEBUG
 	system("make std && make std1");
 #endif
-	for(int i = 1; i <=  num; i++){
+	for(int i = 1; i <=  1; i++){
 		string fileIn = name + to_string(i) + ".in";
 		string fileOut = name + to_string(i) + ".out";
-		int maxn = F(i, num) * _maxn;
-		int maxm = F(i, num) * _maxm;
-		int n = random(maxn * 0.95, maxn);
-		int m = random(maxm * 0.95, maxm);
-		//cerr << n << endl;
-		freopen(fileIn.c_str(), "w", stdout);
-		make(n, m);
-		fclose(stdout);
-		system((std + " < " + fileIn + " > " + fileOut).c_str());
+		// int maxn = F(i, num) * _maxn;
+		// int maxm = F(i, num) * _maxm;
+		// int n = random(maxn * 0.95, maxn);
+		// int m = random(maxm * 0.95, maxm);
+		// //cerr << n << endl;
+		// freopen(fileIn.c_str(), "w", stdout);
+		// make(n, m);
+		// fclose(stdout);
+		// system((std + " < " + fileIn + " > " + fileOut).c_str());
 #ifdef DEBUG
 		system(("./std < " + fileIn + " > std.out").c_str());
 		system(("./std1 < " + fileIn + " > std1.out").c_str());
